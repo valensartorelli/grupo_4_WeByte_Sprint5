@@ -1,0 +1,104 @@
+label.fr_lbltexto{
+    display: none;
+}
+div.fr_text{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 2%;
+}
+div.fr_registro{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 2%;
+    justify-content: left;
+}
+div.pd_producto-img{
+    width:90%;
+    justify-content: center;
+}
+div.FORM{
+    display: flex;
+    width:90%;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+div.form{
+    width: 45%;
+}
+input[type=text], input[type=password], input[type=date], input[type=file], input[type=email] {
+    width: 100%;
+    margin: 0px 0px 5px 0px;
+    padding: 0px 10px;
+    background: #ffffff;
+    border: 1px solid #222222;
+    font-size: 10pt;
+    color: #262626;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+      
+      -webkit-transition: background .55s ease;
+    -moz-transition: background .55s ease;
+    -ms-transition: background .55s ease;
+    -o-transition: background .55s ease;
+    transition: background .55s ease;
+}
+input:focus{ outline: none;}
+
+input[type=radio]{
+    padding: 12px 20px;
+    margin: 12px 0;
+}
+input[type=checkbox]{
+    width: 5%;
+    padding: 12px 20px;
+    margin: 12px 0;
+}
+div.fr_radio{
+    padding-left: 4%;
+}
+div.fr_radio img{
+    width: 5%;
+}
+button{
+    background-color: black;
+    color: cornsilk;
+    text-align: center;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+button{
+    width: 24%;
+}
+
+button:hover {
+    text-decoration: none;
+    color: #e4ff49;
+}
+.DATOS, .ENVIO, .PAGO{
+    margin-bottom: 1%;
+    margin-top: 2%;
+    padding-left: 5%;
+    font-weight: bold;
+}
+section#formulario{
+    margin-bottom: 5%;
+    justify-content: space-between;
+}
+
+@media (max-width: 360px) {
+    div.form{
+        width: 90%;
+        padding-left: 5%;
+    }
+    div.fr_radio img{
+        width: 15%;
+    }
+    button{
+        width: 35%;
+    }
+}

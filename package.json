@@ -1,0 +1,28 @@
+{
+  "name": "webyte-proyecto",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valensartorelli/grupo_4_WeByte_Sprint2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/valensartorelli/grupo_4_WeByte_Sprint2/issues"
+  },
+  "homepage": "https://github.com/valensartorelli/grupo_4_WeByte_Sprint2#readme",
+  "description": "Repositorio que responde al Sprint 2 para el grupo 4 WeByte! Contribuidores: Valentina Sartorelli, Gabriela Mangoni, Claudio Kornfeld, Hernan Arismendi."
+}

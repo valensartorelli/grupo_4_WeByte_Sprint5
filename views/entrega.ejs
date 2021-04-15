@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="/css/productDetail.css">
+        <link rel="stylesheet" href="/css/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+        <link rel="stylesheet" href="/css/register.css">
+        <link rel="stylesheet" href="/css/entrega.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">    <link href="https://fonts.google.com/icons?selected=Material%20Icons%20Outlined%3Asearch" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/c877c0219a.js" crossorigin="anonymous"></script>
+        <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="js/bootstrap.js">
+        <link href="carousel.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+        <title>We Byte</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="color-top">
+                <div class="container d-flex">
+                    <div class="copy-header"><MARQUEE SCROLLDELAY =200>6 cuotas sin interes - Envios gratis a partir de $5000</MARQUEE></div>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Ayuda </a></li>
+                            <li>|</li>
+                            <li><a href="/login"> Iniciar Sesión </a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="header-top-bar">
+                <!--<div class="burguer-menu"><i class="fa fa-bars burguer"></i></div> borrar-->
+                <nav role="navigation">
+                    <div id="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        <a href="/"><li><img src="/images/logo-weByte.png" alt="" style="width: 55px; text-align: left;"></li></a>
+                        <a href="#"><li>Hombres</li></a>
+                        <a href="#"><li>Mujeres</li></a>
+                        <a href="#"><li>Niños</li></a>
+                    </ul>
+                    </div>
+                </nav>
+                    <!-- /burguer-->
+
+                <div class="header-logo"><a href="/"><img src="/images/logo-weByte.png" alt="" class="logo"></a></div>
+            <nav class="main-navbar">
+                <ul>
+                    <li><a href="#"><i class="fas fa-search"></i></a></li>
+                    <li><a href="/register"><i class="fas fa-user"></i></a></li>
+                    <li><a href="/carrito"><i class="fas fa-shopping-bag"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-top-bar-desktop">
+                <div class="container d-flex">
+                    <div class="header-logo-desk">
+                        <a href="/">
+                            <img src="/images/logo-weByte.png" alt="" class="logo">
+                        </a>
+                    </div>
+                    <nav class="main-navbar-left">
+                        <ul>
+                            <li><a href="#">Hombres</a></li>
+                            <li>|</li>
+                            <li><a href="#">Mujeres</a></li>
+                            <li>|</li>
+                            <li><a href="#">Niños</a></li>
+                            <li>|</li>
+                        </ul>
+                    </nav>
+                    <nav class="main-navbar">
+                        <ul>
+                            <li><a href="#"><i class="fas fa-search"></i></a></li>
+                            <li><a href="/register"><i class="fas fa-user"></i></a></li>
+                            <li><a href="/carrito"><i class="fas fa-shopping-bag"></i></a></li>
+                            </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main id="pd_main-container">
+                <section id="formulario">
+                    <form action="" method="POST">
+                    <div class="fr_text">Ya estas registrado? <a href="/login">Inicia Sesión</a></div>
+                    <div class="DATOS">Datos para la Entrega</div>
+                    <div class="pd_producto-img">
+                        <div class="FORM">            
+                                    <div class="form">
+                                        <label class="fr_lbltexto"></label>
+                                        <input type="text" name="nombreApellido" id="nombreApellido" required placeholder="* Nombre y Apellido">
+                                    </div>
+                                    <div class="form">
+                                        <label class="fr_lbltexto"></label>
+                                        <input type="date" name="fechaNac" id="fechaNac" required>
+                                    </div>
+                                    <div class="form">
+                                        <label class="fr_lbltexto"></label>
+                                        <input type="email" name="emailUsuario" id="emailUsuario" required placeholder="* Correo Electronico">
+                                    </div>
+                                    <div class="form">
+                                        <label class="fr_lbltexto"></label>
+                                        <input type="text" name="calle" id="calle" required placeholder="* Calle">
+                                    </div>
+                                    <div class="form">
+                                        <label class="fr_lbltexto"></label>
+                                        <input type="text" name="numero" id="numero" required placeholder="* Numero">
+                                    </div>
+                                    <div class="form">
+                                        <label class="fr_lbltexto"></label>
+                                        <input type="text" name="piso-dept" id="piso-dept" required placeholder="* Piso / Departamento">
+                                    </div>
+                                    <div class="form">
+                                        <label class="fr_lbltexto"></label>
+                                        <input type="text" name="postal" id="postal" required placeholder="* Codigo Postal">
+                                    </div>
+                                    <div class="form">
+                                        <label class="fr_lbltexto"></label>
+                                        <input type="text" name="provincia" id="provincia" required placeholder="* Provincia">
+                                    </div>
+                                    <div class="form">
+                                        <label class="fr_lbltexto"></label>
+                                        <input type="text" name="localidad" id="localidad" required placeholder="* Localidad">
+                                    </div>
+                                    <div class="form">
+                                        <label class="fr_lbltexto"></label>
+                                        <input type="text" name="telefono" id="telefono" required placeholder="* Telefono">
+                                    </div>
+                    </div>
+                    </div>
+                    <div class="ENVIO">Metodo de Envio</div>
+                    <div class="pd_producto-img">
+                        <div class="pd_prod-left p10">
+                                <div class="fr_radio">
+                                    <label class="fr_lbltexto" for="envio"></label>
+                                    <input type="radio" name="envio" id="envio" value="domicilio"> &nbsp; Envio a Domicilio <br>
+                                    <input type="radio" name="envio" id="envio" value="retiro"> &nbsp; Retiro en Tienda
+                                </div>                                    
+                        </div>
+                    </div>
+                    </div>
+                    <div class="PAGO">Tipo de Pago</div>
+                    <div class="pd_producto-img">
+                        <div class="pd_prod-left p10">
+                                <div class="fr_radio">
+                                    <label class="fr_lbltexto" for="pago"></label>
+                                    <input type="radio" name="pago" id="pago" value="Tarjeta"> &nbsp; Tarjeta de Credito <img src="/images/op1.png" alt="visa"><img src="/images/op2.png" alt="mastercard"> <br>
+                                    <input type="radio" name="pago" id="pago" value="Mercadopago"> &nbsp; Mercadopago <img src="/images/op3.png" alt="mercadopago"> <br>
+                                    <input type="radio" name="pago" id="pago" value="Bitcoin"> &nbsp; Bitcoin <img src="/images/op4.png" alt="bitcoin">
+                                </div>                                    
+                        </div>
+                    </div>
+                    </div>
+                    <div class="fr_registro">
+                        <button type="reset" class="borrar">BORRAR TODO</button>
+                        <button type="button" onclick="location.href='/carrito'" class="continuar">CONTINUAR!</button>
+                    </div>
+                </form>
+                </section>
+            
+        </main>
+        
+        <footer>
+            <section>
+                <div class="container lgrey">
+                    <div class="ico-contactenos">
+                        <a href="https://api.whatsapp.com/send?phone=5491156662222&text=Me contacto desde la web" target="_blank">
+                            <img src="/images/ico-contacto.png" alt="" >
+                        </a>
+                    </div>
+                    <div class="logo-footer">
+                        <a href="index.html">
+                            <img src="/images/logo-weByte.png" alt="WeByte Indumentaria deportiva" class="logo-xs"> 
+                        </a>
+                    </div>
+                    <nav class="main-navbar-bottom">
+                        <ul>
+                            <li><a href="#">Hombre </a></li>
+                            <li>|</li>
+                            <li><a href="#">Mujer </a></li>
+                            <li>|</li>
+                            <li><a href="#">Niños </a></li>
+                            <li>|</li>
+                            <li><a href="#">Como comprar </a></li>
+                            <li>|</li>
+                            <li><a href="#">Contactenos </a></li>
+                            <li>|</li>
+                        </ul>
+                    </nav>
+                    <nav class="main-navbar-social">
+                        <ul>
+                            <li class="ico-network">
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="ico-network">
+                                <a href="#">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                            </li>
+                            <li class="ico-network">
+                                <a href="#">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li class="ico-network">
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="color-bottom dgrey">
+                    <div class="container d-flex">
+                        <p>Av Cordoba 5486 - CABA - 011-2356-8596</p>
+                        <p>Copyright 2021 - Todos los derechos reservados</p>
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    </body>
+</html>
