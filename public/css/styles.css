@@ -421,6 +421,126 @@ footer p {
 
 /* end burguer*/
 
+/* resgister */
+
+input{
+    width: 100%;
+      background: #ffffff;
+      border: 1px solid #222222;
+      font-size: 10pt;
+      color: #262626;
+      padding: 0px 10px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+        
+        -webkit-transition: background .55s ease;
+      -moz-transition: background .55s ease;
+      -ms-transition: background .55s ease;
+      -o-transition: background .55s ease;
+      transition: background .55s ease;
+    }
+  input:focus{ outline: none;}
+  
+    .p40 {padding-top: 41px;}
+    .fr_text{display: block; width: 100%; font-family: 'Roboto Condensed', sans-serif; font-size: 1em; padding: 0px 0px; }
+    .fr_text a{text-decoration: none; color: #ff0000;}
+    .fr_text a:hover {color: #ff0000;}
+      
+    .fr_nombre input, .fr_email input,  .fr_calle input,  .fr_fechaNac input,  .fr_password1 input, .fr_password2 input {
+          width: 98%;
+          margin: 0px 0px 5px 0px;
+          padding: 0px 10px;
+          height: 35px;
+      }
+      .fr_checkbox {
+          display: block;
+          width: 100%;
+          font-size: 11px;
+      }
+  
+      .google-logo {
+          width: 240px;
+          height: 40px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          padding: 7px 0px 0px 15px;
+          background-image: url("/images/google.png");
+          background-repeat: no-repeat;
+          background-position: 95%;;
+          border: 1px solid #000;
+      }
+      .facebook-logo {
+          width: 240px;
+          height: 40px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          padding: 7px 0px 0px 15px;
+          background-image: url("/images/facebook.png");
+          background-repeat: no-repeat;
+          background-position: 95%;;
+          border: 1px solid #000;
+          margin-top: 10px;
+      }
+      .google-logo a, .facebook-logo a {color: #000; text-decoration: none; text-transform: uppercase; display: block;}
+      .google-logo a:hover, .facebook-logo a:hover {color: #ff0000; text-decoration: none;}
+  
+      .fr-destacado{font-family: 'Roboto Condensed', sans-serif; font-size: 0.85em; color: #222222;}
+      .m-left20 {margin-left: 20px;}
+      .fr_lbltexto{font-family: 'Roboto Condensed', sans-serif; font-size: 1em; color: #222222; text-transform: uppercase; padding-top: 15px; font-weight: 600;}
+      .fr_lbltexto2{font-family: 'Roboto Condensed', sans-serif; font-size: 1em; color: #222222; text-transform: uppercase; padding-top: 15px; font-weight: 600; white-space: nowrap; text-align: left;}
+      .fr_lbltexto-xs {font-family: 'Open Sans', sans-serif; font-size: 10px; color: #222222; }
+      .fr_lbltexto-xs a {color: #000; text-decoration: none;}
+      .fr_lbltexto-xs a:hover {color: #ff0000;}
+  
+      .p10 {padding: 10px;}
+      
+   
+  
+      .fr_registro button {bottom: 50px; left: 0px; background-color: #000; color: #ebebeb; justify-content: center;}
+  
+      .acc-ng{font-family: 'Roboto Condensed', sans-serif; text-align: left; background-color: #000; color: #ffffff; width: 100%; font-size: 20px; text-transform: uppercase;}
+      
+      .block {display: inline-block; width: 100%;}
+      .doble-boton {display: flex; justify-content: space-between; width: 98%;}
+      .boton-left, .boton-rigt{flex: 1 1 50%; align-items: center;}
+      
+      .register div.pd_prod-rigt3 h2 {
+          text-align: left;
+      }
+  /* entrega */
+  
+  div.formEnvios{
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+  .formEnvios div.form{
+    flex: 1 1 auto;
+    width: 50%;
+    padding-top: 5px;
+    padding-right: 5px;
+  }
+  
+  input[type=radio]{
+    width: 25%;
+    padding: 12px 0px;
+    margin: 12px 0px;
+  }
+  input[type=checkbox]{
+    width: 5%;
+    padding: 12px 0px;
+    margin: 3px 0px;
+  }
+  div.fr_radio{
+    padding-left: 4%;
+  }
+  div.fr_radio img{
+    width: 5%;
+  }
+
+/* end resgister */
 
 /* Estilos Responsive */
 
@@ -440,6 +560,8 @@ footer p {
     .logo {
         width: 25vW;
     }
+    .pd_prod-rigt3 .pd_tit-categoria {font-size: 26px;}
+    .fr_registro-rigt{display: block;}
 }
 
 
@@ -484,8 +606,19 @@ footer p {
         display: inline-block;
         margin-left: 20px;
     }
+    .register .pd_prod-rigt3 {
+        margin: 35px 0 35px 0px;
+        padding-top: 10px;
+    }
+    .fr_registro-left, .fr_registro-rigt{flex: 1 1 100%; align-items: center;}
+
 }
 
+@media (max-width: 991px) {
+    .register .pd_prod-rigt3 {
+        margin: 35px 0 35px 25px;
+    }
+  }
 
 /* LG -- Computadoras */
 
@@ -538,4 +671,6 @@ footer p {
         display: inline-block;
         margin-left: 20px;
     }
+    .fr_registro {display: flex; justify-content: space-between; width: 98%;}
+    .fr_registro-left, .fr_registro-rigt{flex: 1 1 50%; align-items: center;}
 }

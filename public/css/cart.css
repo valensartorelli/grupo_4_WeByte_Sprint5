@@ -33,6 +33,7 @@ section.carro button{
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+
 }
 
 section.carro button.carro-pagar{
@@ -89,6 +90,8 @@ section.resumen-ayuda button{
     -ms-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+    height: 40px;
+    margin-bottom: 20px;
 }
 
 section.resumen-ayuda button:hover {
