@@ -3,6 +3,11 @@ const app = express();
 const puerto = process.env.PORT;
 const path = require('path');
 
+// Donde estan los gerentes de ruteo
+const homeRoutes = require('./routes/homeRoutes');
+const userRoutes = require('./routes/userRoutes');
+const productRoutes = require('./routes/productRoutes');
+
 // le decimos cual es la carpeta publica
 const publicPath = path.join(__dirname, './public');
 // para que encuentre las imagenes y css
@@ -22,9 +27,7 @@ app.get('/register', (req, res) =>
     res.render('register')
 );
 
-app.get('/producto', (req, res) =>
-    res.render('product')
-);
+app.use('/producto', productRoutes);
 
 app.get('/detalleProducto', (req, res) =>
     res.render('productDetail')
