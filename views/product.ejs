@@ -24,11 +24,7 @@
 
             <section id="pd_listado-products" >
                 <div class="container">
-                    <% for(let i = 0;i < 4; i++){ %>
-                        <% if(i == 0){ %>
-                            <div class="row">
-                        <% } %>
-                    <% } %>
+                    <div class="row">
                     
                     <% listado.forEach(articulo => {%>
                         <%- include('partials/articulo', { articulo })  %>
