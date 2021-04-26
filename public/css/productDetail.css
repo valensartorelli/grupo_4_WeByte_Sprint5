@@ -209,6 +209,9 @@ width: auto;
 }
 .novedades h2{font-size: 35px;}
 
+.edit_content a{
+  color: #fff;
+}
 /* XS -- Celulares */
 @media screen and (min-width: 0px) {
     #footer-pre{flex-direction:column; font-size: 1em;  }

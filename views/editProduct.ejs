@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <%- include('partials/head') %>
+
+<body class="register">
+    
+    <%- include('partials/header') %>
+
+        <main id="pd_main-container">
+            <section id="pd_main-producto_">
+                <div class="container">
+                    <br>
+                    <div class="pd_tit-categoria p40">Alta de producto</div>
+                    
+                    <div class="pd_producto-img">
+                        <div class="pd_prod-left">
+                            <form action="" method="POST">
+                                <div class="fr_fechaNac">
+                                    <label class="fr_lbltexto"> Sección </label>
+                                    <input type="text" name="seccion" id="seccion" required>
+                                </div>
+                                <div class="fr_nombre">
+                                    <label class="fr_lbltexto">Título</label>
+                                    <input type="text" name="titulo" id="titulo" required
+                                        placeholder="* Titulo del producto">
+                                </div>
+                                <div class="fr_email">
+                                    <label class="fr_lbltexto"> Descripción </label>
+                                    <input type="textarea" name="descripcion" id="descripcion" required
+                                        placeholder="* Descripción">
+                                </div>
+                                <div class="fr_email">
+                                    <label class="fr_lbltexto"> Color </label>
+                                    <input type="text" name="color" id="color" required
+                                        placeholder="* Color">
+                                </div>
+                                <div class="fr_email">
+                                    <label class="fr_lbltexto"> Talle </label>
+                                    <input type="textarea" name="talle" id="talle" required
+                                        placeholder="* Talle">
+                                </div>
+                                <div class="fr_email">
+                                    <label class="fr_lbltexto"> Precio </label>
+                                    <input type="text" name="precio" id="precio" required
+                                        placeholder="* Precio">
+                                </div>
+                                <!--</div>-->
+                                <br>
+                                <div class="fr_registro">
+                                    <div class="fr_registro-left">
+                                        <button type="button" class="pd_gl-cta pd_gl-cta--primary"><span
+                                                class="pd_gl-cta__content"><a
+                                                    href="#">Crear</a></span></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="pd_detalle"></section>
+
+            <%- include('partials/newsletter') %>
+
+            <%- include('partials/prefooter') %>
+        </main>
+
+        <%- include('partials/footer') %>
+
+            <!-- Bootstrap Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+                crossorigin="anonymous"></script>
+
+</body>
+
+</html>
