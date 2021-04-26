@@ -1,0 +1,4 @@
+El equipo se ha reunido una vez en la semana pero ha mantenido diariosintercambios por Slack para resolver asuntos del proyecto. 
+15/4 – Via online, entre todos, implementamos el modulo EJS. Renombramos todas las vistas actuales para que utilicen la extensión .ejs. Actualizamos el sitio con la implementación de los partials.
+17/4 – Nuevamente vía online, modificamos los router y los métodos de los controladores para que utilicen el método render().Modificamos la vista productos.ejs para que levante datos desde data.js
+24/4 – Agregamos el formularios de Alta y Edición. Duplicamos pantalla dedetalle de producto para vista Administrador   (incluyendo los botones Modificar y Eliminar)
