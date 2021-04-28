@@ -15,6 +15,9 @@ app.use(express.static('public'));
 
 app.set('view engine', 'ejs');
 
+app.use('/producto', productRoutes);
+app.use('/user', userRoutes);
+
 app.get('/', (req, res) =>
     res.render('index')
 );
@@ -26,8 +29,6 @@ app.get('/login', (req, res) =>
 app.get('/register', (req, res) =>
     res.render('register')
 );
-
-app.use('/producto', productRoutes);
 
 app.get('/detalleProducto', (req, res) =>
     res.render('productDetail')
@@ -44,6 +45,19 @@ app.get('/plantilla', (req, res) =>
 app.get('/entrega', (req, res) =>
     res.render('entrega')
 );
+
+app.get('/edit', (req, res) =>
+    res.render('editProduct')
+);
+
+app.get('/create', (req, res) =>
+    res.render('createProduct')
+);
+
+app.get('/editId', (req, res) =>
+    res.render('detailEdit')
+);
+
 
 
 app.listen(puerto || 3000, function() {
