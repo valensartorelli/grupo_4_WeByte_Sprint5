@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "firstName": "Gabriela", 
+        "lastName": "Mangoni",
+        "email": "mangonigabriela@gmail.com",
+        "password": "12345678",
+        "category": "Admin",
+        "image": "usuario1.jpg"
+    }, 
+    {
+        "id": "2",
+        "firstName": "Hernan", 
+        "lastName": "Arismendi",
+        "email": "haap92@gmail.com",
+        "password": "12345678",
+        "category": "Admin",
+        "image": "usuario2.jpg"
+    }, 
+    {
+        "id": "3",
+        "firstName": "Miguel Mateo Claudio", 
+        "lastName": "Kornfeld",
+        "email": "mmckornfeld@gmail.com",
+        "password": "12345678",
+        "category": "Admin",
+        "image": "usuario3.jpg"
+    },
+    {
+        "id": "4",
+        "firstName": "Valentina", 
+        "lastName": "Sartorelli",
+        "email": "valen.sartorelli@gmail.com",
+        "password": "12345678",
+        "category": "Admin",
+        "image": "usuario4.jpg"
+    },
+    {
+        "id": "5",
+        "firstName": "Juan", 
+        "lastName": "Perez",
+        "email": "juan.perez@gmail.com",
+        "password": "12345678",
+        "category": "User",
+        "image": "usuario5.jpg"
+    }, 
+    {
+        "id": "6",
+        "firstName": "Maria", 
+        "lastName": "Gomez",
+        "email": "mgomez@gmail.com",
+        "password": "12345678",
+        "category": "User",
+        "image": "usuario6.jpg"
+    }, 
+    {
+        "id": "7",
+        "firstName": "Lucas", 
+        "lastName": "Ferrero",
+        "email": "lucas.ferrero@gmail.com",
+        "password": "12345678",
+        "category": "User",
+        "image": "usuario7.jpg"
+    },
+    {
+        "id": "8",
+        "firstName": "Pedro", 
+        "lastName": "Fernandez",
+        "email": "pedrof@gmail.com",
+        "password": "12345678",
+        "category": "User",
+        "image": "usuario8.jpg"
+    }
+]
