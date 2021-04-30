@@ -13,7 +13,7 @@
                             <li>></li>
                             <li><a href="/"><strong>Atras</strong></a></li>
                             <li>/</li>
-                            <li><a href="/producto">Hombre</a></li>
+                            <li><a href="/product">Hombre</a></li>
                             <li>/</li>
                             <li><a href="/detalleProducto">Indumentaria</a></li>   
                         </ul>
@@ -24,11 +24,11 @@
                 <div class="container">
                     <div class="pd_tit-categoria">Indumentaria para Hombre</div>
                     <div class="pd_producto-img">
-                        <div class="pd_prod-left"><img src="/images/detalle-producto1.jpg" alt="Remeras Hombre"></div>
+                        <div class="pd_prod-left"><img src="/images/<%= product.image %>" alt="Remeras Hombre"></div>
                         <div class="pd_prod-rigt">
-                            <h1>Remera Basica de Algodon</h1>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.</p>
-                            <p class="pd_prod-precio">$1645</p>
+                            <h1><%= product.name %></h1>
+                            <p><%= product.descripcion %></p>
+                            <p class="pd_prod-precio">$<%= product.price %></p>
                             <label for="color" class="pd_label">Elegir Color</label>
                             <select name="color" id="color" placeholder="Seleccione un Color">
                                 <option value="Negro">Negro</option>
@@ -70,12 +70,12 @@
                             <br>
                             <br>
                             <div class="d-flow">
-                                <button type="button" class="pd_gl-cta pd_gl-cta--primary">
-                                    <span class="edit_content">
-                                        <a href="#">Editar</a>
-                                    </span>
-                                </button>
-                                <button type="button" class="pd_gl-cta pd_gl-cta--primary">
+                                <form action="/product/<%= product.id %>/edit" method="get" class="create-form" id="editar">
+                                    <button class="pd_gl-cta pd_gl-cta--primary">
+                                        Editar
+                                    </button>
+                                </form>
+                                <button class="pd_gl-cta pd_gl-cta--primary">
                                     <span class="edit_content">
                                         <a href="#">Borrar</a>
                                     </span>
@@ -90,7 +90,7 @@
             <section id="pd_detalle2">
                 <div class="container">
                     <h2>Detalle del Producto</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.</p>
+                    <p><%= product.descripcionAmpliada %></p>
                 </div>
             </section>
 

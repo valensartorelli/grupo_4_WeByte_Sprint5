@@ -1,12 +1,12 @@
 <div class="col-xs-12 col-sm-6 col-md-3">
     <article>
-        <a href="/detalleProducto"> 
+        <a href="/product/<%= articulo.id%>"> 
             <img src="/images/<%= articulo.image %>" alt="<%= articulo.name %>" class="pd_img-list">
         </a>
         <div class="pd_main-article">
             <p class="pd_categoria"><%= articulo.categoria %></p>
             <p class="pd_descripciones">
-                <a href="/detalleProducto"> <%= articulo.name %></a>
+                <a href="/product/<%= articulo.id%>"> <%= articulo.name %></a>
             </p>
             <p class="pd_precios">$<%= articulo.price %></p>
         </div>

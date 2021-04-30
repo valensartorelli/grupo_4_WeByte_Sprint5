@@ -15,7 +15,7 @@ app.use(express.static('public'));
 
 app.set('view engine', 'ejs');
 
-app.use('/producto', productRoutes);
+app.use('/product', productRoutes);
 app.use('/user', userRoutes);
 
 app.get('/', (req, res) =>

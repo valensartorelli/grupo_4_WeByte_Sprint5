@@ -1,4 +1,7 @@
-let productos = require('../data/datosProductos');
+// ESTO SERIA EL GESTOR DEL MODELO
+const jsonDB = require('../model/jsonDatabase');
+// Maneja todos los métodos para PRODUCTO, que lo pasa como parámetro
+const productModel = jsonDB('products');
 
 // Leo los elementos del array del archivo data
 let productController = {
@@ -8,15 +11,28 @@ let productController = {
     },
     index: (req, res) => {
         // leo todo el array de products en el controlador productController
-        const listado = productController.leerTodos();
+        const products = productModel.all();
         // envio el array product a la vista para que la recorra EJS
-        res.render('product', { listado });
+        res.render('product', { products });
     },
     create: (req, res) => {
-        return res.render('alta')
+        return res.render('createProduct')
     },
     edit: (req, res) => {
-        return res.render('detailEdit')
+        let product = productModel.find(req.params.id);
+        if (product) {
+            res.render('editProduct', { product });
+        } else {
+            res.render('error404');
+        }
+    },
+    show: (req, res) => {
+        const product = productModel.find(req.params.id);
+        if (product) {
+            res.render('detailEdit', { product });
+        } else {
+            res.render('error404');
+        }
     }
 }
 

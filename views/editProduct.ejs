@@ -15,20 +15,18 @@
                     
                     <div class="pd_producto-img">
                         <div class="pd_prod-left">
-                            <form action="" method="POST">
+                            <form action="/product/<%= product.id %>?_method=PUT" method="POST" enctype="multipart/form-data">
                                 <div class="fr_fechaNac">
-                                    <label class="fr_lbltexto"> Sección </label>
-                                    <input type="text" name="seccion" id="seccion" required>
+                                    <label class="fr_lbltexto" for="seccion"> Sección </label>
+                                    <input type="text" name="seccion" id="seccion" value="<%= product.categoria %>" required>
                                 </div>
                                 <div class="fr_nombre">
                                     <label class="fr_lbltexto">Título</label>
-                                    <input type="text" name="titulo" id="titulo" required
-                                        placeholder="* Titulo del producto">
+                                    <input type="text" name="titulo" id="titulo" value="<%= product.name %>" required>
                                 </div>
                                 <div class="fr_email">
                                     <label class="fr_lbltexto"> Descripción </label>
-                                    <input type="textarea" name="descripcion" id="descripcion" required
-                                        placeholder="* Descripción">
+                                    <input type="textarea" name="descripcion" id="descripcion" value="<%= product.descripcion %>" required>
                                 </div>
                                 <div class="fr_email">
                                     <label class="fr_lbltexto"> Color </label>
@@ -42,8 +40,7 @@
                                 </div>
                                 <div class="fr_email">
                                     <label class="fr_lbltexto"> Precio </label>
-                                    <input type="text" name="precio" id="precio" required
-                                        placeholder="* Precio">
+                                    <input type="text" name="precio" id="precio" value="$<%= product.price %>" required>
                                 </div>
                                 <!--</div>-->
                                 <br>
