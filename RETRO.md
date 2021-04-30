@@ -1,1 +1,2 @@
 Los objetivos del Sprint2 fueron cumplidos por el grupo Webyte en tiempo y forma. Solo quedaron por completar algunas pantallas del final del proceso de compra.  La estructura general del sitio está completa y preparada para la próxima etapa. El conocimiento profesional de herramientas de diseño por parte de dos integrantes del equipo facilitó las tareas y permitió exhibir al cliente un producto de alta calidad.
+d
