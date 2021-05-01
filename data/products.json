@@ -1,90 +1,203 @@
 [
-    {
-        "id": "1",
-        "name": "Remera Algodon Negra", 
-        "categoria": "Hombre",
-        "price": 1645,
-        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
-       "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
-        "color": ["Negro", "Blanco", "Rojo", "Azul"],
-        "talle": ["S", "M", "L", "XL"],
-        "image": "detalle-producto1.jpg"
-    }, 
-    {
-        "id": "2",
-        "name": "Remera Algodon Roja", 
-        "categoria": "Hombre",
-        "price": 1645,
-        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
-       "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
-        "color": ["Rojo", "Negro", "Blanco", "Azul"],
-        "talle": ["S", "M", "L", "XL"],
-        "image": "detalle-producto2.jpg"
-    }, 
-    {
-        "id": "3",
-        "name": "Remera Algodon Blanco", 
-        "categoria": "Hombre",
-        "price": 1645,
-        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
-       "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
-        "color": ["Blanco", "Rojo", "Negro",  "Azul"],
-        "talle": ["S", "M", "L", "XL"],
-        "image": "detalle-producto3.jpg"
-    },
-    {
-        "id": "4",
-        "name": "Remera Algodon Azul", 
-        "categoria": "Hombre",
-        "price": 1645,
-        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
-       "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
-        "color": ["Azul", "Rojo", "Negro", "Blanco"],
-        "talle": ["S", "M", "L", "XL"],
-        "image": "detalle-producto4.jpg"
-    },
-    {
-        "id": "5",
-        "name": "Remera Algodon Negra", 
-        "categoria": "Hombre",
-        "price": 1645,
-        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
-       "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
-        "color": ["Negro", "Blanco", "Rojo", "Azul"],
-        "talle": ["S", "M", "L", "XL"],
-        "image": "detalle-producto1.jpg"
-    }, 
-    {
-        "id": "6",
-        "name": "Remera Algodon Roja", 
-        "categoria": "Hombre",
-        "price": 1645,
-        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
-       "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
-        "color": ["Rojo", "Negro", "Blanco", "Azul"],
-        "talle": ["S", "M", "L", "XL"],
-        "image": "detalle-producto2.jpg"
-    }, 
-    {
-        "id": "7",
-        "name": "Remera Algodon Blanco", 
-        "categoria": "Hombre",
-        "price": 1645,
-        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
-       "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
-        "color": ["Blanco", "Rojo", "Negro",  "Azul"],
-        "talle": ["S", "M", "L", "XL"],
-        "image": "detalle-producto3.jpg"
-    },
-    {
-        "id": "8",
-        "name": "Remera Algodon Azul", 
-        "categoria": "Hombre",
-        "price": 1645,
-        "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
-       "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
-        "color": ["Azul", "Rojo", "Negro", "Blanco"],
-        "talle": ["S", "M", "L", "XL"],
-        "image": "detalle-producto4.jpg"
-    }
+ {
+  "id": "1",
+  "name": "Remera Algodon Negra",
+  "categoria": "Hombre",
+  "price": 1645,
+  "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
+  "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
+  "color": [
+   "Negro",
+   "Blanco",
+   "Rojo",
+   "Azul"
+  ],
+  "talle": [
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "image": "detalle-producto1.jpg"
+ },
+ {
+  "id": "2",
+  "name": "Remera Algodon Roja",
+  "categoria": "Hombre",
+  "price": 1645,
+  "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
+  "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
+  "color": [
+   "Rojo",
+   "Negro",
+   "Blanco",
+   "Azul"
+  ],
+  "talle": [
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "image": "detalle-producto2.jpg"
+ },
+ {
+  "id": "3",
+  "name": "Remera Algodon Blanco",
+  "categoria": "Hombre",
+  "price": 1645,
+  "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
+  "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
+  "color": [
+   "Blanco",
+   "Rojo",
+   "Negro",
+   "Azul"
+  ],
+  "talle": [
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "image": "detalle-producto3.jpg"
+ },
+ {
+  "id": "4",
+  "name": "Remera Algodon Azul",
+  "categoria": "Hombre",
+  "price": 1645,
+  "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
+  "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
+  "color": [
+   "Azul",
+   "Rojo",
+   "Negro",
+   "Blanco"
+  ],
+  "talle": [
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "image": "detalle-producto4.jpg"
+ },
+ {
+  "id": "5",
+  "name": "Remera Algodon Negra",
+  "categoria": "Hombre",
+  "price": 1645,
+  "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
+  "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
+  "color": [
+   "Negro",
+   "Blanco",
+   "Rojo",
+   "Azul"
+  ],
+  "talle": [
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "image": "detalle-producto1.jpg"
+ },
+ {
+  "id": "6",
+  "name": "Remera Algodon Roja",
+  "categoria": "Hombre",
+  "price": 1645,
+  "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
+  "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
+  "color": [
+   "Rojo",
+   "Negro",
+   "Blanco",
+   "Azul"
+  ],
+  "talle": [
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "image": "detalle-producto2.jpg"
+ },
+ {
+  "id": "7",
+  "name": "Remera Algodon Blanco",
+  "categoria": "Hombre",
+  "price": 1645,
+  "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
+  "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
+  "color": [
+   "Blanco",
+   "Rojo",
+   "Negro",
+   "Azul"
+  ],
+  "talle": [
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "image": "detalle-producto3.jpg"
+ },
+ {
+  "id": "8",
+  "name": "Remera Algodon Azul",
+  "categoria": "Hombre",
+  "price": 1645,
+  "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
+  "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
+  "color": [
+   "Azul",
+   "Rojo",
+   "Negro",
+   "Blanco"
+  ],
+  "talle": [
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "image": "detalle-producto4.jpg"
+ },
+ {
+  "categoria": "Mujer",
+  "name": "dsfsdfsd",
+  "descripcion": "dfdsf",
+  "descripcionAmpliada": "sdfsdf",
+  "color": "Blanco",
+  "talle": "S",
+  "price": "34",
+  "image": "",
+  "id": 9
+ },
+ {
+  "categoria": "Mujer",
+  "name": "dfgdfgddfg",
+  "descripcion": "dfgdfg",
+  "descripcionAmpliada": "fdgdfgdf",
+  "color": "Blanco",
+  "talle": "S",
+  "price": "34",
+  "image": "img-1619879034652.jpg",
+  "id": 10
+ },
+ {
+  "categoria": "Mujer",
+  "name": "asdasdasdasd",
+  "descripcion": "asdasdasdas",
+  "descripcionAmpliada": "asdasdasd",
+  "color": "Blanco",
+  "talle": "S",
+  "price": "4356",
+  "image": "img-1619879121532.jpg",
+  "id": 11
+ }
 ]

@@ -75,11 +75,13 @@
                                         Editar
                                     </button>
                                 </form>
-                                <button class="pd_gl-cta pd_gl-cta--primary">
-                                    <span class="edit_content">
-                                        <a href="#">Borrar</a>
-                                    </span>
-                                </button>
+                                <form action="/product/<%= product.id %>?_method=DELETE" method="POST" class="create-form" id="eliminar">
+                                    <button class="pd_gl-cta pd_gl-cta--primary">
+                                        <span class="edit_content">
+                                            Borrar
+                                        </span>
+                                    </button>
+                                </form>
                             </div>
                             
                         </div>

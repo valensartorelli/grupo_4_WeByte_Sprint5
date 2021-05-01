@@ -15,15 +15,15 @@
                     
                     <div class="pd_producto-img">
                         <div class="pd_prod-left">
-                            <form action="" method="POST">
+                            <form action="/product/store" method="POST" enctype="multipart/form-data">
                                 <div class="fr_fechaNac">
-                                    <label class="fr_lbltexto"> Sección </label>
-                                    <input type="text" name="seccion" id="seccion" required>
+                                    <label class="fr_lbltexto"> Categoria </label>
+                                    <input type="text" name="categoria" id="categoria" required>
                                 </div>
                                 <div class="fr_nombre">
-                                    <label class="fr_lbltexto">Título</label>
-                                    <input type="text" name="titulo" id="titulo" required
-                                        placeholder="* Titulo del producto">
+                                    <label class="fr_lbltexto">Nombre</label>
+                                    <input type="text" name="name" id="name" required
+                                        placeholder="* Nombre del producto">
                                 </div>
                                 <div class="fr_email">
                                     <label class="fr_lbltexto"> Descripción </label>
@@ -47,16 +47,22 @@
                                 </div>
                                 <div class="fr_email">
                                     <label class="fr_lbltexto"> Precio </label>
-                                    <input type="text" name="precio" id="precio" required
+                                    <input type="text" name="price" id="price" required
                                         placeholder="* Precio">
+                                </div>
+                                <div class="fr_email">
+                                    <label class="fr_lbltexto"> Imagen de producto </label>
+                                    <input type="file" name="image" id="image"  accept=".jpg, .png" required>
                                 </div>
                                 <!--</div>-->
                                 <br>
                                 <div class="fr_registro">
                                     <div class="fr_registro-left">
-                                        <button type="button" class="pd_gl-cta pd_gl-cta--primary"><span
-                                                class="pd_gl-cta__content"><a
-                                                    href="#">Crear</a></span></button>
+                                        <button type="submit" class="pd_gl-cta pd_gl-cta--primary">
+                                            <span class="pd_gl-cta__content">
+                                                Crear
+                                            </span>
+                                        </button>
                                     </div>
                                 </div>
                             </form>

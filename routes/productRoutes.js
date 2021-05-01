@@ -20,4 +20,13 @@ router.get('/:id/edit', controladorProduct.edit);
 
 router.get('/:id', controladorProduct.show);
 
+// Acción de edición (a donde se envía el formulario) (PUT)
+router.put('/:id', upload.single('image'), controladorProduct.update);
+
+// Acción de borrado (DELETE)
+router.delete('/:id', controladorProduct.destroy);
+
+// Acción de creación (a donde se envía el formulario) (POST)
+router.post('/store', upload.single('image'), controladorProduct.store);
+
 module.exports = router;
