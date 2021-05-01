@@ -84,24 +84,13 @@
   "image": "detalle-producto4.jpg"
  },
  {
-  "id": "5",
-  "name": "Remera Algodon Negra",
   "categoria": "Hombre",
-  "price": 1645,
+  "name": "Remera Algodon Negra",
   "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
-  "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
-  "color": [
-   "Negro",
-   "Blanco",
-   "Rojo",
-   "Azul"
-  ],
-  "talle": [
-   "S",
-   "M",
-   "L",
-   "XL"
-  ],
+  "color": "Negro",
+  "talle": "XL",
+  "price": "700",
+  "id": "5",
   "image": "detalle-producto1.jpg"
  },
  {
@@ -166,38 +155,5 @@
    "XL"
   ],
   "image": "detalle-producto4.jpg"
- },
- {
-  "categoria": "Mujer",
-  "name": "dsfsdfsd",
-  "descripcion": "dfdsf",
-  "descripcionAmpliada": "sdfsdf",
-  "color": "Blanco",
-  "talle": "S",
-  "price": "34",
-  "image": "",
-  "id": 9
- },
- {
-  "categoria": "Mujer",
-  "name": "dfgdfgddfg",
-  "descripcion": "dfgdfg",
-  "descripcionAmpliada": "fdgdfgdf",
-  "color": "Blanco",
-  "talle": "S",
-  "price": "34",
-  "image": "img-1619879034652.jpg",
-  "id": 10
- },
- {
-  "categoria": "Mujer",
-  "name": "asdasdasdasd",
-  "descripcion": "asdasdasdas",
-  "descripcionAmpliada": "asdasdasd",
-  "color": "Blanco",
-  "talle": "S",
-  "price": "4356",
-  "image": "img-1619879121532.jpg",
-  "id": 11
  }
 ]

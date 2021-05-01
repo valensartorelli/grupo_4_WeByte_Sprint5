@@ -212,6 +212,11 @@ width: auto;
 .edit_content a{
   color: #fff;
 }
+
+.create-form {
+  display: inline-block;
+}
+
 /* XS -- Celulares */
 @media screen and (min-width: 0px) {
     #footer-pre{flex-direction:column; font-size: 1em;  }

@@ -6,7 +6,6 @@ const productModel = jsonDB('products');
 // Leo los elementos del array del archivo data
 let productController = {
     leerTodos: function() {
-        console.log('leo productos desde data');
         return productos
     },
     index: (req, res) => {
@@ -49,22 +48,17 @@ let productController = {
         res.redirect('../product')
     },
     store: (req, res) => {
-        console.log('Entre a store')
-        console.log(req.files);
         // Atrapo los contenido del formulario
         const product = req.body;
         // Verificar si viene un archivo, para nombrarlo  
         product.image = req.file ? req.file.filename : '';
-        console.log(product.image)
-        // Delego la responsabilidad al modelo para crear producto  
-        console.log(product)
-        // Cuidade sólo mando el cuerpo del FORM, el Id me lo asigna el Modelo  
+        // Cuidado sólo mando el cuerpo del FORM, el Id me lo asigna el Modelo  
         productModel.create(product);
         res.redirect('/product')
     },
     destroy: (req, res) => {
-        console.log('entre destroy')
         productModel.delete(req.params.id);
+        res.redirect('/product')
     }
 }
 

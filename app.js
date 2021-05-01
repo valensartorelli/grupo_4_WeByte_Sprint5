@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const puerto = process.env.PORT;
 const path = require('path');
-
 const methodOverride = require('method-override');
 
 // Donde estan los gerentes de ruteo
