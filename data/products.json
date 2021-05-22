@@ -2,10 +2,10 @@
  {
   "id": "1",
   "name": "Remera Algodon Negra",
-  "categoria": "Hombre",
+  "category": "Hombre",
   "price": 1645,
-  "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
-  "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
+  "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
+  "extended": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
   "color": [
    "Negro",
    "Blanco",
@@ -21,54 +21,38 @@
   "image": "detalle-producto1.jpg"
  },
  {
-  "id": "2",
+  "category": "Hombre",
   "name": "Remera Algodon Roja",
-  "categoria": "Hombre",
-  "price": 1645,
-  "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
-  "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
+  "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
+  "extended": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
   "color": [
-   "Rojo",
-   "Negro",
-   "Blanco",
-   "Azul"
+   "",
+   "",
+   "",
+   ""
   ],
-  "talle": [
-   "S",
-   "M",
-   "L",
-   "XL"
-  ],
-  "image": "detalle-producto2.jpg"
+  "price": "1645",
+  "image": "detalle-producto2.jpg",
+  "id": "2"
  },
  {
-  "id": "3",
+  "category": "Hombre",
   "name": "Remera Algodon Blanco",
-  "categoria": "Hombre",
-  "price": 1645,
-  "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
-  "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
-  "color": [
-   "Blanco",
-   "Rojo",
-   "Negro",
-   "Azul"
-  ],
-  "talle": [
-   "S",
-   "M",
-   "L",
-   "XL"
-  ],
-  "image": "detalle-producto3.jpg"
+  "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
+  "extended": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
+  "color": "",
+  "talle": "",
+  "price": "1845",
+  "image": "detalle-producto3.jpg",
+  "id": "3"
  },
  {
   "id": "4",
   "name": "Remera Algodon Azul",
-  "categoria": "Hombre",
+  "category": "Hombre",
   "price": 1645,
-  "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
-  "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
+  "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
+  "extended": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
   "color": [
    "Azul",
    "Rojo",
@@ -84,9 +68,9 @@
   "image": "detalle-producto4.jpg"
  },
  {
-  "categoria": "Hombre",
+  "category": "Hombre",
   "name": "Remera Algodon Negra",
-  "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
+  "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
   "color": "Negro",
   "talle": "XL",
   "price": "700",
@@ -96,10 +80,10 @@
  {
   "id": "6",
   "name": "Remera Algodon Roja",
-  "categoria": "Hombre",
+  "category": "Hombre",
   "price": 1645,
-  "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
-  "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
+  "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
+  "extended": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
   "color": [
    "Rojo",
    "Negro",
@@ -117,10 +101,10 @@
  {
   "id": "7",
   "name": "Remera Algodon Blanco",
-  "categoria": "Hombre",
+  "category": "Hombre",
   "price": 1645,
-  "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
-  "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
+  "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
+  "extended": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
   "color": [
    "Blanco",
    "Rojo",
@@ -138,10 +122,10 @@
  {
   "id": "8",
   "name": "Remera Algodon Azul",
-  "categoria": "Hombre",
+  "category": "Hombre",
   "price": 1645,
-  "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
-  "descripcionAmpliada": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
+  "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
+  "extended": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
   "color": [
    "Azul",
    "Rojo",
@@ -155,5 +139,102 @@
    "XL"
   ],
   "image": "detalle-producto4.jpg"
+ },
+ {
+  "category": "Hombre",
+  "name": "Buzo Canguro con Capucha",
+  "description": "Nuestros productos de algodón apoyan el cultivo de algodón sostenible. ",
+  "extended": "Nuestros productos de algodón apoyan el cultivo de algodón sostenible. Esto hace parte de nuestro anhelo de ponerle fin a la contaminación por plástico",
+  "color": "Negro",
+  "talle": "L",
+  "price": "8500",
+  "image": "img-1621009153463.jpg",
+  "id": "9"
+ },
+ {
+  "category": "Mujer",
+  "name": "Pelota de Cuero Spalding nro 6 women",
+  "description": "pelota de cuero Spalding",
+  "extended": "El gabinete de seguridad de Israel aprobó un cese al fuego en la Franja de Gaza Así lo reportaron distintos medios locales tras la finalización de la reunión",
+  "color": "Marron",
+  "talle": "Unico",
+  "price": "8500",
+  "image": "img-1621540203491.jpg",
+  "id": 10
+ },
+ {
+  "category": "Niño",
+  "name": "Pelota de Basquet Miami Heat Nro 7",
+  "description": "El piloto británico habló en la previa al Gran Premio de Mónaco y fue consultado sobre la nueva generación que se está abriendo paso en la Máxima",
+  "extended": "El piloto británico habló en la previa al Gran Premio de Mónaco y fue consultado sobre la nueva generación que se está abriendo paso en la Máxima",
+  "color": "Rojo",
+  "S": "on",
+  "M": "on",
+  "price": "3600",
+  "image": "img-1621546554284.jpg",
+  "id": 11
+ },
+ {
+  "category": "Mujer",
+  "name": "Remera Azul",
+  "description": "El piloto británico habló en la previa al Gran Premio de Mónaco y fue consultado sobre la nueva generación que se está abriendo paso en la Máxima",
+  "extended": "El piloto británico habló en la previa al Gran Premio de Mónaco y fue consultado sobre la nueva generación que se está abriendo paso en la Máxima",
+  "color": "Azul",
+  "talle": [
+   "M",
+   "XL"
+  ],
+  "price": "6400",
+  "image": "img-1621546749477.jpg",
+  "id": 12
+ },
+ {
+  "category": "Niño",
+  "name": "Conjunto Kappa",
+  "description": "El piloto británico habló en la previa al Gran Premio de Mónaco y fue consultado sobre la nueva generación que se está abriendo paso en la Máxima",
+  "extended": "El piloto británico habló en la previa al Gran Premio de Mónaco y fue consultado sobre la nueva generación que se está abriendo paso en la Máxima",
+  "color": "Negro",
+  "talle": [
+   "S",
+   "M",
+   "L"
+  ],
+  "price": "12500",
+  "image": "img-1621546947345.jpg",
+  "id": 13
+ },
+ {
+  "category": "Mujer",
+  "name": "Campera Kappa Mujer",
+  "description": "El piloto británico habló en la previa al Gran Premio de Mónaco y fue consultado sobre la nueva generación que se está abriendo paso en la Máxima",
+  "extended": "El piloto británico habló en la previa al Gran Premio de Mónaco y fue consultado sobre la nueva generación que se está abriendo paso en la Máxima",
+  "color": [
+   "Azul",
+   "Rojo"
+  ],
+  "talle": [
+   "S",
+   "L"
+  ],
+  "price": "10000",
+  "image": "img-1621547360243.jpg",
+  "id": 14
+ },
+ {
+  "category": "Mujer",
+  "name": "Pelota Spalding Goma",
+  "description": "El piloto británico habló en la previa al Gran Premio de Mónaco y fue consultado sobre la nueva generación que se está abriendo paso en la Máxima",
+  "extended": "El piloto británico habló en la previa al Gran Premio de Mónaco y fue consultado sobre la nueva generación que se está abriendo paso en la Máxima",
+  "color": [
+   "Azul",
+   "Blanco"
+  ],
+  "talle": [
+   "M",
+   "L"
+  ],
+  "price": "7500",
+  "image": "img-1621644105174.jpg",
+  "id": 15
  }
 ]

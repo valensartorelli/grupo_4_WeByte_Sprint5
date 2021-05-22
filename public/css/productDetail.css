@@ -177,7 +177,7 @@ width: auto;
 .pd_prod-rigt3 h2{font-size: 1.75em; }
 .pd_prod-rigt{font-size: 0.75em; padding: 15px 10px;} 
 .pd_prod-rigt p{padding-right: 35px;} 
-.pd_prod-precio{font-weight: bold; font-size: 1.25em;}
+.pd_prod-precio{font-weight: bold;}
 .pd_label{display: block; font-weight: 700; font-size: 1.25em; font-family: 'Roboto Condensed', sans-serif; width: 100%;}
 
 .link-ruta{display: block; width: 100%;}
@@ -193,6 +193,15 @@ width: auto;
 .radio-talles label:hover { background-color: #000; color: #e5fe4a;}
 .radio-talles input[type="radio"]:checked + label {background-color: #000; color: #e5fe4a; font-weight: 700;}
 
+.check-x{display: flex;}
+.check-x label {display: inline-block; padding: 10px 10px; align-items: center; justify-content: space-around;}
+.check-x input[type="checkbox"]{width: 15px; margin-right: 20px; }
+
+.check-talles{display: flex;}
+.check-talles input[type="checkbox"] {display: none;}
+.check-talles label {display: inline-block; background-color: #ffffff; border: 1px solid #333; cursor: pointer; padding: 5px 15px; color: #000; margin: 0px 11px 10px 0px;}
+.check-talles label:hover { background-color: #000; color: #e5fe4a;}
+.check-talles input[type="checkbox"]:checked + label {background-color: #000; color: #e5fe4a; font-weight: 700;}
 
 .guias{ display: inline-flex; justify-content: flex-start;  width: 100%; padding: 15px 35px 20px 0px; font-family: 'Roboto Condensed', sans-serif;}
 .guia-left a, .guia-right a{color: #333; margin-right: 35px; font-size: 14px; }
@@ -225,6 +234,7 @@ width: auto;
     .pd_precios{font-size: 1.7em; }
     .pd_prod-rigt3{border-top: 1px solid #333; margin-top: 15px; text-align: left;}
     .fr_registro-left, .fr_registro-rigt{flex: 1 1 100%; align-items: center;}
+    .pd_prod-rigt p.pd_prod-precio{font-size:18px;}
   }
   
   /* SM -- tablets */
@@ -257,6 +267,7 @@ width: auto;
     .pd_prod-rigt3{border-top: none;}
     #pd_newsletter .d-flex {flex-direction: row;}
     .novedades h2{font-size: 53px;}
+    .pd_prod-rigt p.pd_prod-precio{font-size:25px;}
 }
 
 /* LG -- Computadoras */
@@ -275,4 +286,5 @@ width: auto;
     .pd_precios{font-size: 24px}
     #pd_newsletter .d-flex {flex-direction: row;}
     .novedades h2{font-size: 53px;}
+    .pd_prod-rigt p.pd_prod-precio{font-size:30px;}
 }

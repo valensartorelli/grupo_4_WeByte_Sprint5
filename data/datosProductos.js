@@ -5,7 +5,7 @@ let productos = [
         categoria: 'Hombre',
         price: 1645,
         descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.',
-        descripcionAmpliada: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.',
+        extended: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.',
         color: 'Negro',
         talle: 'S',
         image: "detalle-producto1.jpg"
@@ -16,7 +16,7 @@ let productos = [
         categoria: 'Hombre',
         price: 1645,
         descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.',
-        descripcionAmpliada: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.',
+        extended: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.',
         color: 'Rojo',
         talle: 'S',
         image: "detalle-producto2.jpg"
@@ -27,7 +27,7 @@ let productos = [
         categoria: 'Hombre',
         price: 1645,
         descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.',
-        descripcionAmpliada: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.',
+        extended: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.',
         color: 'Blanco',
         talle: 'S',
         image: "detalle-producto3.jpg"
@@ -38,7 +38,7 @@ let productos = [
         categoria: 'Hombre',
         price: 1645,
         descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.',
-        descripcionAmpliada: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.',
+        extended: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.',
         color: 'Azul',
         talle: 'S',
         image: "detalle-producto4.jpg"
@@ -49,7 +49,7 @@ let productos = [
         categoria: 'Hombre',
         price: 1645,
         descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.',
-        descripcionAmpliada: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.',
+        extended: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.',
         color: 'Azul',
         talle: 'S',
         image: "detalle-producto1.jpg"
@@ -60,7 +60,7 @@ let productos = [
         categoria: 'Hombre',
         price: 1645,
         descripcion: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.',
-        descripcionAmpliada: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.',
+        extended: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.',
         color: 'Azul',
         talle: 'S',
         image: "detalle-producto2.jpg"

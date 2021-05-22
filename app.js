@@ -19,19 +19,7 @@ app.use(methodOverride('_method'));
 
 app.use('/product', productRoutes);
 app.use('/user', userRoutes);
-
-app.get('/', (req, res) =>
-    res.render('index')
-);
-
-app.get('/login', (req, res) =>
-    res.render('login')
-);
-
-app.get('/register', (req, res) =>
-    res.render('register')
-);
-
+app.use('/', homeRoutes);
 
 
 app.listen(puerto || 3000, function() {

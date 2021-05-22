@@ -3,6 +3,7 @@ const path = require('path');
 // Recibo por parámetro la entidad para reutilizarlo
 
 
+
 const model = function (name) {
     console.log('entre al modelo')
     console.log(name)
@@ -13,12 +14,6 @@ const model = function (name) {
         readFile: function ( ){
             let tableContents = fs.readFileSync(this.tablePath, 'utf-8');
             return JSON.parse(tableContents) || [];
-        },
-        // leer productos Json para home
-        readProducts: function() {
-            const jsonProducts = fs.readFileSync(__dirname + '/../data/products.json');
-        const products = JSON.parse(jsonProducts);
-        return products
         },
 // Grabo el array que recibo por parámetro y lo paso a formato Json
         writeFile : function(contents) {

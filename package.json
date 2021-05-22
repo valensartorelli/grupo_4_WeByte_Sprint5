@@ -12,6 +12,7 @@
     "bootstrap": "^5.0.0-beta3",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
+    "express-validator": "^6.11.1",
     "method": "^2.0.0",
     "method-override": "^3.0.0",
     "multer": "^1.4.2"

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-	<%- include('partials/head-productDetail') %>
+	<%- include('../partials/head-productDetail') %>
 
     <body class="productDetails">
-        <%- include('partials/header') %>
+        <%- include('../partials/header') %>
         
         <main id="pd_main-container">
             <section>
@@ -22,7 +22,7 @@
             </section>
             <section>
                 <div class="container">
-                    <div class="pd_tit-categoria">Indumentaria para Hombre</div>
+                    <div class="pd_tit-categoria">Indumentaria para <%= product.category %></div>
                     <div class="pd_producto-img">
                         <div class="pd_prod-left"><img src="/images/<%= product.image %>" alt="Remeras Hombre"></div>
                         <div class="pd_prod-rigt">
@@ -30,23 +30,27 @@
                             <p><%= product.descripcion %></p>
                             <p class="pd_prod-precio">$<%= product.price %></p>
                             <label for="color" class="pd_label">Elegir Color</label>
-                            <select name="color" id="color" placeholder="Seleccione un Color">
-                                <option value="Negro">Negro</option>
-                                <option value="Blanco">Blanco</option>
-                                <option value="Rojo">Rojo</option>
-                                <option value="Azul">Azul</option>
-                            </select>
+                            <div class="check-talles"> 
+                            <input type="checkbox" name="color" value="Azul" id="Azul" >
+                            <label for="Azul"> Azul </label> 
+                            <input type="checkbox" name="color" value="Blanco" id="Blanco">
+                            <label for="Blanco"> Blanco</label>
+                            <input type="checkbox" name="color" value="Negro" id="Negro">
+                            <label for="Negro"> Negro </label> 
+                            <input type="checkbox" name="color" value="Rojo" id="Rojo">
+                            <label for="Rojo"> Rojo </label>  
+                             </div>
                             <br><br><br>
                             <label for="color" class="pd_label">Elegir Talle</label>
-                            <div class="radio-talles">
-                                <input type="radio" name="talle" id="S">
-                                <label for="S" class="label-talle">S</label>
-                                <input type="radio" name="talle" id="M">
-                                <label for="M" class="label-talle">M</label>
-                                <input type="radio" name="talle" id="L">
-                                <label for="L" class="label-talle">L</label>
-                                <input type="radio" name="talle" id="XL">
-                                <label for="XL" class="label-talle">XL</label>
+                            <div class="check-talles"> 
+                                <input type="checkbox" name="talle" value="S" id="S">
+                                <label for="S">S</label>
+                                <input type="checkbox" name="talle" value="M" id="M">
+                                <label for="M">M</label>
+                                <input type="checkbox" name="talle" value="L" id="L">
+                                <label for="L">L</label>
+                                <input type="checkbox" name="talle" value="XL" id="XL">
+                                <label for="XL">XL</label>
                             </div>
                             <div class="guias">
                                 <div class="guia-left">
@@ -64,7 +68,7 @@
                             </div>
                             <button type="button" class="pd_gl-cta pd_gl-cta--primary">
                                 <span class="pd_gl-cta__content">
-                                    <a href="/carrito">Agregar al Carrito</a>
+                                    <a href="/product/cart">Agregar al Carrito</a>
                                 </span>
                             </button>
                             <br>
@@ -92,7 +96,7 @@
             <section id="pd_detalle2">
                 <div class="container">
                     <h2>Detalle del Producto</h2>
-                    <p><%= product.descripcionAmpliada %></p>
+                    <p><%= product.extended %></p>
                 </div>
             </section>
 
@@ -221,11 +225,11 @@
             </div>
         </section>
 
-        <%- include('partials/newsletter') %>
+        <%- include('../partials/newsletter') %>
 
-        <%- include('partials/prefooter') %>
+        <%- include('../partials/prefooter') %>
         
-        <%- include('partials/footer') %>
+        <%- include('../partials/footer') %>
 
         <!-- Bootstrap Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
