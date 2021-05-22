@@ -15,30 +15,59 @@
                     <div class="fr_text">Ya estas registrado? <a href="login">Inicia Sesión</a></div>
                     <div class="pd_producto-img">
                         <div class="pd_prod-left">
-                            <form action="" method="POST">
+                            <form action="/users/register" method="POST" enctype="multipart/form-data">
                                 <div class="fr_nombre">
                                     <label class="fr_lbltexto"> Tu Nombre </label>
-                                    <input type="text" name="nombreApellido" id="nombreApellido" required
-                                        placeholder="* Nombre y Apellido">
+                                    <input type="text" name="fullName" id="fullName" value="<%= locals.oldData ? oldData.fullName : null %>" class="control <%= locals.errors && errors.fullName ? 'is-invalid' : null %>">
+                                    <% if (locals.errors && errors.fullName) { %>
+                                        <div class="is-invalid"> <%= errors.fullName.msg %></div>
+                                    <% } %>
                                 </div>
                                 <div class="fr_fechaNac">
                                     <label class="fr_lbltexto"> Fecha de nacimiento </label>
-                                    <input type="date" name="fechaNac" id="fechaNac" required>
+                                    <input type="date" name="bday" id="bday" value="<%= locals.oldData ? oldData.bday : null %>" class="control <%= locals.errors && errors.bday ? 'is-invalid' : null %>">
+                                    <% if (locals.errors && errors.bday) { %>
+                                        <div class="is-invalid"> <%= errors.bday.msg %></div>
+                                    <% } %>
                                 </div>
                                 <div class="fr_email">
-                                    <label class="fr_lbltexto"> Datos de Acceso </label>
-                                    <input type="email" name="emailUsuario" id="emailUsuario" required
-                                        placeholder="* Correo Electronico">
+                                    <label class="fr_lbltexto"> Email </label>
+                                    <input type="email" name="email" id="email" value="<%= locals.oldData ? oldData.email : null %>" class="control <%= locals.errors && errors.email ? 'is-invalid' : null %>">
+                                    <% if (locals.errors && errors.email) { %>
+                                        <div class="is-invalid"> <%= errors.email.msg %></div>
+                                    <% } %>
                                 </div>
                                 <div class="fr_password1">
-                                    <input type="password" name="passwordUsuario1" id="passwordUsuario1" required
-                                        placeholder="* Contraseña">
-                                    <label class="fr_lbltexto-xs"> Debes usar como minimo 8 caracteres, incluyendo un
-                                        numero, mayusculas y minusculas.</label>
+                                    <label class="fr_lbltexto"> Contraseña </label>
+                                    <input type="password" name="password" id="password" value="<%= locals.oldData ? oldData.password : null %>" class="control <%= locals.errors && errors.password ? 'is-invalid' : null %>">
+                                    <% if (locals.errors && errors.password) { %>
+                                        <div class="is-invalid"> <%= errors.password.msg %></div>
+                                    <% } %>
                                 </div>
-                                <div class="fr_password2">
-                                    <input type="password" name="passwordUsuario2" id="passwordUsuario2" required
-                                        placeholder="* Repetir Contraseña">
+                                <div class="fr_password1">
+                                    <label class="fr_lbltexto">Categoria</label>
+                                    <select name="category" class="control <%= locals.errors && errors.category ? 'is-invalid' : null %>">
+                                        <option value="">Elegí una categoria</option>
+                                        <%  
+                                       let category = ['Admin', 'User'];
+                                        %>
+                                         <% for (const oneCategory of category) { %>
+                                            <option 
+                                            value="<%= oneCategory %>"
+                                        <%= locals.oldData && (oneCategory === oldData.category) ? 'selected' : null %> 
+                                        > <%= oneCategory %> </option>
+                                        <% } %>
+                                  </select>
+                                    <% if (locals.errors && errors.category) { %>
+                                        <div class="is-invalid"> <%= errors.category.msg %></div>
+                                    <% } %>
+                                </div>
+                                <div class="fr_password1">
+                                    <label class="fr_lbltexto">Foto de usuario</label>
+                                    <input type="file" name="avatar" accept=".jpg, .png" class="control <%= locals.errors && errors.avatar ? 'is-invalid' : null %>">
+                                    <% if (locals.errors && errors.avatar) { %>
+                                        <div class="is-invalid"> <%= errors.avatar.msg %></div>
+                                    <% } %>
                                 </div>
                                 <!--</div>-->
                                 <br>
@@ -53,9 +82,11 @@
                                 <br>
                                 <div class="fr_registro">
                                     <div class="fr_registro-left">
-                                        <button type="button" class="pd_gl-cta pd_gl-cta--primary"><span
-                                                class="pd_gl-cta__content"><a
-                                                    href="../product/cart">Registrarme</a></span></button>
+                                        <button type="submit" class="pd_gl-cta pd_gl-cta--primary">
+                                            <span class="pd_gl-cta__content">
+                                                <a>Registrarme</a>
+                                            </span>
+                                        </button>
                                     </div>
                                     <br>
                                     <div class="fr_registro-right">
