@@ -609,7 +609,7 @@ input{
     width: 180px; border: #707070 1px solid;  
   }
   .avatar-xs{
-    width: 40px; border: #969696 1px solid; border-radius: 100%; 
+    width: 40px; height: 40px; border: #969696 1px solid; border-radius: 100%; 
   }
   .pl-20{margin-left: 20px;
   

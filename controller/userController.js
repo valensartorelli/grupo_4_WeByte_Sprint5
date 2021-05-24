@@ -72,12 +72,12 @@ let userController = {
     },
     profile: (req, res) => {
         return res.render('users/profile', {
-           // user: req.session.userLogged
+            user: req.session.userLogged
         });
     },
     logout: (req, res) => {
-        //res.clearCookie('userEmail');
-        //req.session.destroy();
+        res.clearCookie('userEmail');
+        req.session.destroy();
         return res.redirect('/');
     }
 }

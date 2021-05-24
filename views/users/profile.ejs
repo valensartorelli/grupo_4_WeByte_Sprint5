@@ -13,11 +13,11 @@
                     <h3>Perfil de Usuario</h3>
                 </div>
                 <div > 
-                            <h2>Hola! Gaby </h2>
-                            <img src="/images/avatars/user-1620501511827.jpg " class="avatar">
+                            <h2>Hola! <%= user.fullName %> </h2>
+                            <img src="/images/avatars/<%= user.avatar %>" class="avatar">
                             <br>
                             <br>
-                            <div class="alert alert-success">zaraza@gmail.com</div>
+                            <div class="alert alert-success"><%= user.email %></div>
                  </div>
             </section>
         </main>

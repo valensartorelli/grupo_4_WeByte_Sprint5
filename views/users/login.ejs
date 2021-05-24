@@ -21,17 +21,17 @@
                           			<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                             		<div class="accordion-body">
                                 		<div class="pd_producto-img">
-                                    		<div class="pd_prod-left p10">  
-                								<div class="fr_text">
-	                								Ya estas registrado? Inicia Sesión aca
-	                							</div>       
-                                    			<form action="" method="POST">
+                                    		<div class="pd_prod-left p10">      
+                                    			<form action="/users/login" method="POST">
                                                     <div class="fr_email">
-                                                        <input type="email" name="emailUsuario" id="emailUsuario" required placeholder="* Correo Electronico">
+                                                        <input type="email" name="email" id="email" value="<%= locals.oldData ? oldData.email : null %>" class="control <%= locals.errors && errors.email ? 'is-invalid' : null %>">
+														<% if (locals.errors && errors.email) { %>
+															<div class="is-invalid"> <%= errors.email.msg %></div>
+														<% } %>
                                                     </div>
                                             		<div class="fr_password1">
-                                                    	<input type="password" name="passwordUsuario1" id="passwordUsuario1" required placeholder="* Contraseña">
-                                                    	<label class="fr_lbltexto-xs right"><a href="#"> Olvidaste contraseña?</a></label>
+                                                    	<input type="password" name="password" class="control"> <div class="is-invalid"></div>
+													<label class="fr_lbltexto-xs right"><a href="#"> Olvidaste contraseña?</a></label>
                                             		</div>
 													<div class="fr_checkbox">
 														<label class="fr_checkbox" id="remember_user">
@@ -41,7 +41,7 @@
                                             		<br><br>
                                     				<div class="fr_registro">
 				                                        <div class="fr_registro-left">
-				                                            <button type="button" class="pd_gl-cta pd_gl-cta--primary"><span class="pd_gl-cta__content"><a href="#">Iniciar Sesion</a></span></button>
+				                                            <button type="submit" class="pd_gl-cta pd_gl-cta--primary"><span class="pd_gl-cta__content">Iniciar Sesion</span></button>
 				                                        </div>
                                     					<br>
                                     					<div class="fr_registro-right">

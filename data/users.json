@@ -34,5 +34,16 @@
   "password": "$2a$10$w5T1Qob7NY9RVnn2Y2jyBeWG8sUvX7PENM2jBf8XQcvr4ajy05lMS",
   "category": "Admin",
   "avatar": "user-1621720025589.jpg"
+ },
+ {
+  "id": 5,
+  "fullName": "Hernan Arismendi",
+  "bday": "1992-02-23",
+  "email": "haap92@gmail.com",
+  "password": "$2a$10$9CskH3QyuCzY9K3HH.ixyuJgNS1AWKRmZBmOzRneNbaf2L9zG5Kbm",
+  "category": "Admin",
+  "terminos": "on",
+  "newsletter": "on",
+  "avatar": "user-1621899007207.png"
  }
 ]
