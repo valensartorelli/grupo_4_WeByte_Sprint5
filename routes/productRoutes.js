@@ -10,6 +10,10 @@ router.get('/', controladorProduct.listar);
 
 router.get('/men', controladorProduct.listarMen);
 
+router.get('/woman', controladorProduct.listarWoman);
+
+router.get('/boy', controladorProduct.listarBoy);
+
 router.get('/create', controladorProduct.create);
 
 router.get('/cart', controladorProduct.cart);

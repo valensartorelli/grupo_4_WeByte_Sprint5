@@ -14,7 +14,17 @@ let productController = {
     },
     // lista todos los productos categoria hombre
     listarMen: (req, res) => {
-        const products = productModel.findAllByField();
+        const products = productModel.findAllByField('category', 'Hombre');
+        res.render('products/product', { products });
+    },
+        // lista todos los productos categoria mujer
+        listarWoman: (req, res) => {
+            const products = productModel.findAllByField('category', 'Mujer');
+            res.render('products/product', { products });
+        },
+            // lista todos los productos categoria niño
+    listarBoy: (req, res) => {
+        const products = productModel.findAllByField('category', 'Niño');
         res.render('products/product', { products });
     },
 // Función que muestra el formulario de Alta de Productos

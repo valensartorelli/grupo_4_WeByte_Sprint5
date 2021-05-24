@@ -26,7 +26,7 @@ router.post('/register', upload.single('avatar'), validations, usersController.p
 // Procesar el login
 //router.post('/login', usersController.loginProcess);
 // Perfil de Usuario, 
-//router.get('/profile/', authMiddleware, usersController.profile);
+//router.get('/profile/', usersController.profile);
 // Logout
 //router.get('/logout/', usersController.logout);
 

@@ -17,6 +17,7 @@ let userController = {
                 oldData: req.body
             });
         }
+        // aca busca que el mail no exita ya registrado
         let userInDB = User.findByField('email', req.body.email);
         if (userInDB) {
             return res.render('users/register', {
@@ -28,6 +29,7 @@ let userController = {
                 oldData: req.body
             });
         }
+        //si paso las validaciones crea el usuario y encripta la contraseña
         let userToCreate = {
             ...req.body,
             password: bcryptjs.hashSync(req.body.password, 10),
@@ -40,6 +42,7 @@ let userController = {
         return res.render('users/login');
     },
     loginProcess: (req, res) => {
+        // busca el usuario x email su lo encuentra compara contraseña
         let userToLogin = User.findByField('email', req.body.email);
         if(userToLogin) {
             let isOkThePassword = bcryptjs.compareSync(req.body.password, userToLogin.password);
@@ -69,12 +72,12 @@ let userController = {
     },
     profile: (req, res) => {
         return res.render('users/profile', {
-            user: req.session.userLogged
+           // user: req.session.userLogged
         });
     },
     logout: (req, res) => {
-        res.clearCookie('userEmail');
-        req.session.destroy();
+        //res.clearCookie('userEmail');
+        //req.session.destroy();
         return res.redirect('/');
     }
 }

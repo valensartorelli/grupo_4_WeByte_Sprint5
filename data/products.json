@@ -16,7 +16,7 @@
   "id": "1"
  },
  {
-  "category": "Mujer",
+  "category": "Hombre",
   "name": "Remera Algodon Roja",
   "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
   "extended": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
@@ -29,8 +29,8 @@
    "XL"
   ],
   "price": "6900",
+  "news": true,
   "image": "detalle-producto2.jpg",
-  "news": "true",
   "id": "2"
  },
  {
@@ -187,5 +187,60 @@
   "news": "true",
   "image": "img-1621797575267.jpg",
   "id": 10
+ },
+ {
+  "category": "Niño",
+  "name": "Remera de Algodon Infantil",
+  "description": "Esta Remera es perfecta para completar las sesiones de entrenamiento cuando sales del instituto. ",
+  "extended": "Esta Remera es perfecta para completar las sesiones de entrenamiento cuando sales del instituto. Se ha confeccionado en algodón con un cuello de canalé muy cómodo. El logotipo de adidas engomado le confiere el toque deportivo definitivo.",
+  "color": [
+   "Blanco",
+   "Rojo"
+  ],
+  "talle": [
+   "S",
+   "M"
+  ],
+  "price": "6500",
+  "image": "img-1621876683192.jpg",
+  "id": 11
+ },
+ {
+  "category": "Niño",
+  "name": "Remera Calada Infantil",
+  "description": "Esta Remera es perfecta para completar las sesiones de entrenamiento cuando sales del instituto.",
+  "extended": "Esta Remera es perfecta para completar las sesiones de entrenamiento cuando sales del instituto. Se ha confeccionado en algodón con un cuello de canalé muy cómodo. El logotipo de adidas engomado le confiere el toque deportivo definitivo.",
+  "color": [
+   "Azul",
+   "Negro"
+  ],
+  "talle": [
+   "S",
+   "M",
+   "XL"
+  ],
+  "price": "4500",
+  "news": "true",
+  "image": "img-1621876766882.jpg",
+  "id": 12
+ },
+ {
+  "category": "Mujer",
+  "name": "Remera Mujer Calada",
+  "description": "Esta Remera es perfecta para completar las sesiones de entrenamiento cuando sales del instituto. ",
+  "extended": "Esta Remera es perfecta para completar las sesiones de entrenamiento cuando sales del instituto. Se ha confeccionado en algodón con un cuello de canalé muy cómodo. El logotipo de adidas engomado le confiere el toque deportivo definitivo.",
+  "color": [
+   "Blanco",
+   "Rojo"
+  ],
+  "talle": [
+   "S",
+   "M",
+   "L"
+  ],
+  "price": "9500",
+  "news": "true",
+  "image": "img-1621876953103.jpg",
+  "id": 13
  }
 ]
