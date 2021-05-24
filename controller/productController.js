@@ -9,7 +9,7 @@ let productController = {
     // lista todos los productos
     listar: (req, res) => {
         console.log('entro listado de productos')
-        const products = productModel.find();
+        const products = productModel.all();
         res.render('products/product', { products });
     },
     // lista todos los productos categoria hombre
