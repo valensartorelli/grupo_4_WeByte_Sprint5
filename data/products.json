@@ -1,38 +1,36 @@
 [
  {
-  "id": "1",
-  "name": "Remera Algodon Negra",
   "category": "Hombre",
-  "price": 1645,
+  "name": "Remera Algodon Negra",
   "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
   "extended": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
   "color": [
-   "Negro",
-   "Blanco",
-   "Rojo",
    "Azul"
   ],
   "talle": [
-   "S",
-   "M",
-   "L",
-   "XL"
+   "L"
   ],
-  "image": "detalle-producto1.jpg"
+  "price": "5800",
+  "image": "detalle-producto1.jpg",
+  "news": "true",
+  "id": "1"
  },
  {
-  "category": "Hombre",
+  "category": "Mujer",
   "name": "Remera Algodon Roja",
   "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
   "extended": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
   "color": [
-   "",
-   "",
-   "",
-   ""
+   "Azul",
+   "Blanco"
   ],
-  "price": "1645",
+  "talle": [
+   "L",
+   "XL"
+  ],
+  "price": "6900",
   "image": "detalle-producto2.jpg",
+  "news": "true",
   "id": "2"
  },
  {
@@ -40,8 +38,14 @@
   "name": "Remera Algodon Blanco",
   "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
   "extended": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
-  "color": "",
-  "talle": "",
+  "color": [
+   "Rojo",
+   "Azul"
+  ],
+  "talle": [
+   "S",
+   "XL"
+  ],
   "price": "1845",
   "image": "detalle-producto3.jpg",
   "id": "3"
@@ -71,10 +75,17 @@
   "category": "Hombre",
   "name": "Remera Algodon Negra",
   "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro.Autem quos culpa veniam assumenda ipsa porro.",
-  "color": "Negro",
-  "talle": "XL",
+  "color": [
+   "Rojo",
+   "Azul"
+  ],
+  "talle": [
+   "S",
+   "XL"
+  ],
   "price": "700",
   "id": "5",
+  "news": "true",
   "image": "detalle-producto1.jpg"
  },
  {
@@ -141,100 +152,40 @@
   "image": "detalle-producto4.jpg"
  },
  {
-  "category": "Hombre",
-  "name": "Buzo Canguro con Capucha",
-  "description": "Nuestros productos de algodón apoyan el cultivo de algodón sostenible. ",
-  "extended": "Nuestros productos de algodón apoyan el cultivo de algodón sostenible. Esto hace parte de nuestro anhelo de ponerle fin a la contaminación por plástico",
-  "color": "Negro",
-  "talle": "L",
-  "price": "8500",
-  "image": "img-1621009153463.jpg",
-  "id": "9"
- },
- {
   "category": "Mujer",
-  "name": "Pelota de Cuero Spalding nro 6 women",
-  "description": "pelota de cuero Spalding",
-  "extended": "El gabinete de seguridad de Israel aprobó un cese al fuego en la Franja de Gaza Así lo reportaron distintos medios locales tras la finalización de la reunión",
-  "color": "Marron",
-  "talle": "Unico",
-  "price": "8500",
-  "image": "img-1621540203491.jpg",
-  "id": 10
- },
- {
-  "category": "Niño",
-  "name": "Pelota de Basquet Miami Heat Nro 7",
-  "description": "El piloto británico habló en la previa al Gran Premio de Mónaco y fue consultado sobre la nueva generación que se está abriendo paso en la Máxima",
-  "extended": "El piloto británico habló en la previa al Gran Premio de Mónaco y fue consultado sobre la nueva generación que se está abriendo paso en la Máxima",
-  "color": "Rojo",
-  "S": "on",
-  "M": "on",
-  "price": "3600",
-  "image": "img-1621546554284.jpg",
-  "id": 11
- },
- {
-  "category": "Mujer",
-  "name": "Remera Azul",
-  "description": "El piloto británico habló en la previa al Gran Premio de Mónaco y fue consultado sobre la nueva generación que se está abriendo paso en la Máxima",
-  "extended": "El piloto británico habló en la previa al Gran Premio de Mónaco y fue consultado sobre la nueva generación que se está abriendo paso en la Máxima",
-  "color": "Azul",
-  "talle": [
-   "M",
-   "XL"
-  ],
-  "price": "6400",
-  "image": "img-1621546749477.jpg",
-  "id": 12
- },
- {
-  "category": "Niño",
-  "name": "Conjunto Kappa",
-  "description": "El piloto británico habló en la previa al Gran Premio de Mónaco y fue consultado sobre la nueva generación que se está abriendo paso en la Máxima",
-  "extended": "El piloto británico habló en la previa al Gran Premio de Mónaco y fue consultado sobre la nueva generación que se está abriendo paso en la Máxima",
-  "color": "Negro",
-  "talle": [
-   "S",
-   "M",
-   "L"
-  ],
-  "price": "12500",
-  "image": "img-1621546947345.jpg",
-  "id": 13
- },
- {
-  "category": "Mujer",
-  "name": "Campera Kappa Mujer",
+  "name": "Pantalon de Gimnasia tres tiras",
   "description": "El piloto británico habló en la previa al Gran Premio de Mónaco y fue consultado sobre la nueva generación que se está abriendo paso en la Máxima",
   "extended": "El piloto británico habló en la previa al Gran Premio de Mónaco y fue consultado sobre la nueva generación que se está abriendo paso en la Máxima",
   "color": [
-   "Azul",
+   "Negro",
    "Rojo"
   ],
   "talle": [
    "S",
-   "L"
+   "M"
   ],
-  "price": "10000",
-  "image": "img-1621547360243.jpg",
-  "id": 14
+  "price": "2500",
+  "news": "true",
+  "image": "img-1621797338591.jpg",
+  "id": 9
  },
  {
   "category": "Mujer",
-  "name": "Pelota Spalding Goma",
+  "name": "Pantalon joggers amplio",
   "description": "El piloto británico habló en la previa al Gran Premio de Mónaco y fue consultado sobre la nueva generación que se está abriendo paso en la Máxima",
   "extended": "El piloto británico habló en la previa al Gran Premio de Mónaco y fue consultado sobre la nueva generación que se está abriendo paso en la Máxima",
   "color": [
    "Azul",
-   "Blanco"
+   "Negro",
+   "Rojo"
   ],
   "talle": [
-   "M",
-   "L"
+   "S",
+   "XL"
   ],
-  "price": "7500",
-  "image": "img-1621644105174.jpg",
-  "id": 15
+  "price": "5500",
+  "news": "true",
+  "image": "img-1621797575267.jpg",
+  "id": 10
  }
 ]

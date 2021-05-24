@@ -8,6 +8,8 @@ const validationsEdit = require('../middlewares/validateEditProducts');
 
 router.get('/', controladorProduct.listar);
 
+router.get('/men', controladorProduct.listarMen);
+
 router.get('/create', controladorProduct.create);
 
 router.get('/cart', controladorProduct.cart);
@@ -15,8 +17,6 @@ router.get('/cart', controladorProduct.cart);
 router.get('/:id/edit', controladorProduct.edit);
 
 router.get('/:id', controladorProduct.show);
-
-
 
 // Acción de edición (a donde se envía el formulario) (PUT)
 router.put('/:id', upload.single('image'), validationsEdit, controladorProduct.update);

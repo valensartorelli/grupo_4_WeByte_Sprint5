@@ -10,6 +10,24 @@ let homeController = {
         // envio el array product a la vista para que la recorra EJS
         res.render('index', { products });
     },
+    listar: (req, res) => {
+        console.log('Soy Home Controller - Leo el Json productos ')
+         
+         const products = productModel.all();
+         let news = [];
+ 
+         // Con el siguiente código, se filtran los productos por state. Con límite de max 5 por categoría.
+ 
+         products.forEach((element, i) => {
+             if ( element.news === 'true') {
+                 if ( news.length < 8 ) {
+                     news.push(element);
+                 }
+             } 
+         });
+ 
+         return res.render('index', { news})
+     }
 }
 
 module.exports = homeController;

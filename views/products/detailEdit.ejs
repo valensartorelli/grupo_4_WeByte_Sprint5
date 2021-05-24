@@ -15,7 +15,7 @@
                             <li>/</li>
                             <li><a href="/product">Hombre</a></li>
                             <li>/</li>
-                            <li><a href="/detalleProducto">Indumentaria</a></li>   
+                            <li><a href="/product">Indumentaria</a></li>   
                         </ul>
                     </nav>
                 </div>
@@ -27,29 +27,29 @@
                         <div class="pd_prod-left"><img src="/images/<%= product.image %>" alt="Remeras Hombre"></div>
                         <div class="pd_prod-rigt">
                             <h1><%= product.name %></h1>
-                            <p><%= product.descripcion %></p>
+                            <p><%= product.description %></p>
                             <p class="pd_prod-precio">$<%= product.price %></p>
                             <label for="color" class="pd_label">Elegir Color</label>
                             <div class="check-talles"> 
-                            <input type="checkbox" name="color" value="Azul" id="Azul" >
+                                <input type="checkbox" name="color" id="Azul"  value="Azul" <%= product.color.find(color => color == "Azul") ? 'checked' : '' %> disabled >
                             <label for="Azul"> Azul </label> 
-                            <input type="checkbox" name="color" value="Blanco" id="Blanco">
+                            <input type="checkbox" name="color" value="Blanco" id="Blanco" <%= product.color.find(color => color == "Blanco") ? 'checked' : '' %> disabled >
                             <label for="Blanco"> Blanco</label>
-                            <input type="checkbox" name="color" value="Negro" id="Negro">
+                            <input type="checkbox" name="color" value="Negro" id="Negro" <%= product.color.find(color => color == "Negro") ? 'checked' : '' %>  disabled>
                             <label for="Negro"> Negro </label> 
-                            <input type="checkbox" name="color" value="Rojo" id="Rojo">
+                            <input type="checkbox" name="color" value="Rojo" id="Rojo" <%= product.color.find(color => color == "Rojo") ? 'checked' : '' %> disabled >
                             <label for="Rojo"> Rojo </label>  
                              </div>
                             <br><br><br>
                             <label for="color" class="pd_label">Elegir Talle</label>
                             <div class="check-talles"> 
-                                <input type="checkbox" name="talle" value="S" id="S">
+                                <input type="checkbox" name="talle" id="S" value="S"  <%= product.talle.find(talle => talle == "S") ? 'checked' : '' %> disabled > 
                                 <label for="S">S</label>
-                                <input type="checkbox" name="talle" value="M" id="M">
+                                <input type="checkbox" name="talle" id="M" value="M"  <%= product.talle.find(talle => talle == "M") ? 'checked' : '' %> disabled > 
                                 <label for="M">M</label>
-                                <input type="checkbox" name="talle" value="L" id="L">
+                                <input type="checkbox" name="talle" id="L" value="L"  <%= product.talle.find(talle => talle == "L") ? 'checked' : '' %> disabled> 
                                 <label for="L">L</label>
-                                <input type="checkbox" name="talle" value="XL" id="XL">
+                                <input type="checkbox" name="talle" id="XL" value="XL"  <%= product.talle.find(talle => talle == "XL") ? 'checked' : '' %> disabled> 
                                 <label for="XL">XL</label>
                             </div>
                             <div class="guias">

@@ -32,17 +32,17 @@
                                     <label class="fr_lbltexto" for="seccion"> Categoria </label><br>
                                     
                                     <select name="category" id="category" class="control <%= locals.errors && errors.category ? 'is-invalid' : null %>">
-                                        
-                                        <option value="">Elegí una categoria</option>
-                                        <%  
-                                       let category = ['Hombre', 'Mujer', 'Niño'];
-                                        %>
-                                           <% for (const oneCategory of category) { %>
-                                            <option 
-                                            value="<%= oneCategory %>"
-                                        <%= locals.oldData && (oneCategory === oldData.category) ? 'selected' : null %> 
-                                        > <%= oneCategory %> </option>
-                                        <% } %>
+                                     
+                                        <% categoryArray.forEach(category => { %>
+                                            <% if (category == product.category) { %>
+                                                <option value="<%= product.category %>" selected> <%= product.category %> </option>
+                                            <% }else{ %>
+                                                <option value="<%= category %>"> <%= category %> </option>
+                                           <% } %>
+                                        <% }) %> 
+    
+
+
                                   </select>
                                     <% if (locals.errors && errors.category) { %>
                                         <div class="is-invalid"> <%= errors.category.msg %></div>
@@ -72,22 +72,26 @@
                                         <% } %>
                                 </div>
                                 <label class="fr_lbltexto"> Color </label>
-                                <div class="fr_email check-talles"> 
-                                    <input type="checkbox" name="color" value="Azul" id="Azul" >
+                                <div class="fr_email check-talles">
+                                    <input type="checkbox" name="color" id="Azul"  value="Azul" <%= locals.oldData ? oldData.color : product.color.find(color => color == "Azul")  ? 'checked' : '' %> >
                                     <label for="Azul"> Azul </label> 
-                                    <input type="checkbox" name="color" value="Blanco" id="Blanco">
+                                    <input type="checkbox" name="color" value="Blanco" id="Blanco" <%= locals.oldData ? oldData.color : product.color.find(color => color == "Blanco") ? 'checked' : '' %> >
                                     <label for="Blanco"> Blanco</label>
-                                    <input type="checkbox" name="color" value="Negro" id="Negro">
+                                    <input type="checkbox" name="color" value="Negro" id="Negro" <%= locals.oldData ? oldData.color : product.color.find(color => color == "Negro") ? 'checked' : '' %> >
                                     <label for="Negro"> Negro </label> 
-                                    <input type="checkbox" name="color" value="Rojo" id="Rojo">
+                                    <input type="checkbox" name="color" value="Rojo" id="Rojo" <%= locals.oldData ? oldData.color : product.color.find(color => color == "Rojo") ? 'checked' : '' %> >
                                     <label for="Rojo"> Rojo </label>  
                                 </div>
                                 <label class="fr_lbltexto"> Talle </label>
                                 <div class="fr_email check-talles">
-                                    <label id="S"> S </label> <input type="checkbox" name="talle" value="S">
-                                    <label id="M"> M </label> <input type="checkbox" name="talle" value="M">
-                                    <label id="L"> L </label> <input type="checkbox" name="talle" value="L">
-                                    <label id="XL"> XL </label> <input type="checkbox" name="talle" value="XL">
+                                    <input type="checkbox" name="talle" id="S" value="S"  <%= locals.oldData ? oldData.talle : product.talle.find(talle => talle == "S") ? 'checked' : '' %> > 
+                                    <label for="S">S</label>
+                                    <input type="checkbox" name="talle" id="M" value="M"  <%= locals.oldData ? oldData.talle : product.talle.find(talle => talle == "M") ? 'checked' : '' %> > 
+                                    <label for="M">M</label>
+                                    <input type="checkbox" name="talle" id="L" value="L"  <%= locals.oldData ? oldData.talle : product.talle.find(talle => talle == "L") ? 'checked' : '' %> > 
+                                    <label for="L">L</label>
+                                    <input type="checkbox" name="talle" id="XL" value="XL"  <%= locals.oldData ? oldData.talle : product.talle.find(talle => talle == "XL") ? 'checked' : '' %> > 
+                                    <label for="XL">XL</label>
                                 </div>
                                 <div class="fr_email">
                                     <label class="fr_lbltexto"> Precio </label>
@@ -98,7 +102,7 @@
                                 </div>
                                 <div class="fr_email">
                                     <label class="fr_lbltexto"> Imagen de producto </label>
-                                    <input type="file" name="image" value="<%= locals.errors ? oldData.oldImage :product.image %>" accept=".jpg, .png" class="control" class="control <%= locals.errors && errors.image ? 'is-invalid' : null %>">
+                                    <input type="file" name="image" value="<%= locals.errors ? oldData.oldImage : product.image %>" accept=".jpg, .png" class="control" class="control <%= locals.errors && errors.image ? 'is-invalid' : null %>">
         <input type="hidden" name="oldImage" value="<%= locals.errors ? oldData.oldImage :product.image %>">
         <% if (locals.errors && errors.image) { %>
             <div class="is-invalid">
@@ -106,6 +110,10 @@
             </div>
         <% } %>
                                 </div>
+                                <div class="fr_email check-x">
+                                    <label for="news" class="fr_lbltexto"> Destacado Home </label> 
+                                      <input type="checkbox" name="news" id="news" value="true" <%= locals.errors ? oldData.oldImage : product.news == "true" ? 'checked' : '' %> >
+                            </div>
                                 <!--</div>-->
                                 <br>
                                 <div class="fr_registro">

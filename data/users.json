@@ -25,5 +25,14 @@
   "password": "$2a$10$e2QiKCbkqc5LmLRQWMkiO.roB4b.vhaQM4Mwq2VWgGx8zLoNHq/V.",
   "category": "Admin",
   "avatar": "user-1621717688826.jpg"
+ },
+ {
+  "id": 4,
+  "fullName": "Gabriela Mangoni",
+  "bday": "2021-05-05",
+  "email": "mangonigabriela@gmail.com",
+  "password": "$2a$10$w5T1Qob7NY9RVnn2Y2jyBeWG8sUvX7PENM2jBf8XQcvr4ajy05lMS",
+  "category": "Admin",
+  "avatar": "user-1621720025589.jpg"
  }
 ]

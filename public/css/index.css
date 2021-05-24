@@ -65,13 +65,11 @@ section .img-destacada{
 }
 .prod-info .section{
 	font-size: 14px;
-	line-height: 1;
 	text-transform: uppercase;
 	color: #fff;
 }
 .prod-info h4{
 	font-size: 20px;
-	line-height: 1.2;
 	text-transform: none;
 	color: #fff;
 	font-weight: 700;
@@ -83,8 +81,7 @@ section .img-destacada{
 	transition: all 0.5s ease;
 }
 .prod-info .precio{
-	font-size: 24px;
-	line-height: 1.2;
+	font-size: 14px;
 	text-transform: none;
 	color: #fff;
 	font-weight: 400;
@@ -96,6 +93,10 @@ section .img-destacada{
 	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 }
+.novedad h4 a{
+	color: #ffffff;
+}
+
 .novedad:hover h4{
 	color: #e4ff49;
 }

@@ -4,7 +4,7 @@ const path = require('path');
 
 
 const model = function (name) {
-    console.log('entre al modelo')
+    console.log('entre al modelo de productos')
     console.log(name)
     return {
         tablePath: path.resolve(__dirname, '../data/', `${name}.json`),
@@ -55,6 +55,11 @@ const model = function (name) {
             //Retorno el último id generado
             return row.id;
         },
+        // destacados home
+        homeProducts:function() {
+            let rows = this.all();
+            return rows.filter(product => product.news == true);
+        },
 // Actualizo el archivo
         update:function(row) {
             let rows = this.readFile();
@@ -83,6 +88,19 @@ const model = function (name) {
             });
 
             this.writeFile(updatedRows);
+        },
+
+        // Busca por field al primer elemento de la DB que cumpla con las condiciones de la busqueda, devuelve 1 elemento
+        findFirstByField: function(field, text){
+            let rows = this.all();
+            let elementFound = rows.find(element => element[field] === text);
+            return elementFound;
+        },
+        // Busca por field a todos los elementos de la DB que cumplan con las condiciones de la busqueda, devuelve 1 array
+        findAllByField: function(field, text){
+            let rows = this.all();
+            let allElementsFound = rows.filter(element => element[field] === text);
+            return allElementsFound;
         }
 
       

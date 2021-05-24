@@ -9,7 +9,12 @@ let productController = {
     // lista todos los productos
     listar: (req, res) => {
         console.log('entro listado de productos')
-        const products = productModel.all();
+        const products = productModel.find();
+        res.render('products/product', { products });
+    },
+    // lista todos los productos categoria hombre
+    listarMen: (req, res) => {
+        const products = productModel.findAllByField();
         res.render('products/product', { products });
     },
 // Función que muestra el formulario de Alta de Productos
@@ -31,6 +36,20 @@ store: (req, res) => {
   else {
 const product = req.body;
 product.image = req.file ? req.file.filename : '';
+
+ // pregunta si vienen datos de color y talle en el body, en caso de false devuelve un  array vacio
+ product.color = product.color ? product.color : [];
+ product.talle = product.talle ? product.talle : [];
+
+ // Convierte en array los datos de color y talle en el caso que venga 1 solo dato en los checkboxes del body
+ if (typeof product.color === 'string') {
+     product.color = [product.color];
+ };
+ 
+ if (typeof product.talle === 'string') {
+     product.talle = [product.talle];
+ };
+ 
 productModel.create(product);
 res.redirect('../../product')
 }
@@ -50,10 +69,9 @@ res.redirect('../../product')
     edit: (req, res) => {
        // Delego al modelo que busque el producto     
        let product = productModel.find(req.params.id);
-
-       console.log(product)
+       const categoryArray = ["Hombre", "Mujer", "Niños"];
        if (product) {
-           res.render('products/editProduct', { product });
+           res.render('products/editProduct', { product, categoryArray });
        } else {
            res.render('error404');
        }
@@ -91,11 +109,25 @@ res.redirect('../../product')
     }
 
     delete product.oldImage;
+    
+    product.news = req.body.news == "true" ? true : false;
+    // pregunta si vienen datos de color y talle en el body, en caso de false devuelve un  array vacio
+    product.color = product.color ? product.color : [];
+    product.talle = product.talle ? product.talle : [];
+
+    // Convierte en array los datos de color y talle en el caso que venga 1 solo dato en los checkboxes del body
+    if (typeof product.color === 'string') {
+        product.color = [product.color];
+    };
+
+    if (typeof product.talle === 'string') {
+        product.talle = [product.talle];
+    };
 
     product.id = req.params.id;
     productModel.update(product);         
           
-        res.redirect('../../product')
+        res.redirect('../../product', )
     },
 
     // Función que elimina del Array visitados el producto seleccionado
