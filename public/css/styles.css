@@ -444,21 +444,21 @@ input{
 
   .control{
     width: 98%;
-      background: #ffffff;
-      border: 1px solid #222222;
-      font-size: 10pt;
-      color: #262626;
-      padding: 3px 10px;
-      -webkit-border-radius: 5px;
-      -moz-border-radius: 5px;
-      border-radius: 5px;
-        
-        -webkit-transition: background .55s ease;
-      -moz-transition: background .55s ease;
-      -ms-transition: background .55s ease;
-      -o-transition: background .55s ease;
-      transition: background .55s ease;
-    }
+    height: 35px;
+    background: #ffffff;
+    border: 1px solid #222222;
+    font-size: 10pt;
+    color: #262626;
+    padding: 3px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: background .55s ease;
+    -moz-transition: background .55s ease;
+    -ms-transition: background .55s ease;
+    -o-transition: background .55s ease;
+    transition: background .55s ease;
+}
 
   textarea {
     width: 98%;
@@ -534,8 +534,21 @@ input{
       
    
   
-      .fr_registro button {bottom: 50px; left: 0px; background-color: #000; color: #ebebeb; justify-content: center;}
-  
+      .fr_registro button {
+          bottom: 50px; 
+          left: 0px; 
+          background-color: #000; 
+          color: #ebebeb; 
+          justify-content: center;
+          -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+        }
+      .fr_registro button:hover{
+          color: #e5fe4a;
+      }
       .acc-ng{font-family: 'Roboto Condensed', sans-serif; text-align: left; background-color: #000; color: #ffffff; width: 100%; font-size: 20px; text-transform: uppercase;}
       
       .block {display: inline-block; width: 100%;}

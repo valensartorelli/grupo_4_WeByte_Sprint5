@@ -126,6 +126,14 @@ width: auto;
     color: #fff;
     height: 50px;
     padding:0 21px;
+    -webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+.pd_gl-cta--primary:hover{
+  color: #e5fe4a;
 }
 .pd_gl-cta--primary:focus{ outline: none;}
 .pd_gl-cta__content {

@@ -1,32 +1,5 @@
 [
  {
-  "id": 1,
-  "fullName": "Valentina Sartorelli",
-  "bday": "2021-05-12",
-  "email": "valen.sartorelli@gmail.com",
-  "password": "$2a$10$a13UN4shDcrZgsO/3QFRHeRVxKXgXprQqYSfodN/aKpgOdri859Oa",
-  "category": "Admin",
-  "avatar": "user-1621717572670.jpg"
- },
- {
-  "id": 2,
-  "fullName": "florencia sartorelli",
-  "bday": "2021-05-21",
-  "email": "florencia.sartorelli@gmail.com",
-  "password": "$2a$10$N.Am5ikzywFPrWvFfafDweeiaFoXZLtijLEhALiZuMPd/n6tVxGYC",
-  "category": "Admin",
-  "avatar": "user-1621717613993.jpg"
- },
- {
-  "id": 3,
-  "fullName": "Valentina Sartorelli",
-  "bday": "2021-05-07",
-  "email": "valen.sartorelli@hotmail.com",
-  "password": "$2a$10$e2QiKCbkqc5LmLRQWMkiO.roB4b.vhaQM4Mwq2VWgGx8zLoNHq/V.",
-  "category": "Admin",
-  "avatar": "user-1621717688826.jpg"
- },
- {
   "id": 4,
   "fullName": "Gabriela Mangoni",
   "bday": "2021-05-05",
@@ -45,5 +18,14 @@
   "terminos": "on",
   "newsletter": "on",
   "avatar": "user-1621899007207.png"
+ },
+ {
+  "id": 6,
+  "fullName": "Valentina Sartorelli",
+  "bday": "1989-04-11",
+  "email": "valen.sartorelli@gmail.com",
+  "password": "$2a$10$/6Qwfrqln6JjBZC5G2yzD.vBug1yW2IUzMuWP64PqWfMxy4MpwL5O",
+  "category": "Admin",
+  "avatar": "user-1621908946392.jpg"
  }
 ]
