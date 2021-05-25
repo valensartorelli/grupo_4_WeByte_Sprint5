@@ -77,7 +77,7 @@ res.redirect('../../product')
     edit: (req, res) => {
        // Delego al modelo que busque el producto     
        let product = productModel.find(req.params.id);
-       const categoryArray = ["Hombre", "Mujer", "Niños"];
+       const categoryArray = ["Hombre", "Mujer", "Niño"];
        if (product) {
            res.render('products/editProduct', { product, categoryArray });
        } else {
@@ -88,11 +88,12 @@ res.redirect('../../product')
     update: (req, res) => {
        // Validacion de campos - se pregunta si existió al menos un error
         const errors = validationResult(req);
-
+        const categoryArray = ["Hombre", "Mujer", "Niño"];
      // la función mapped convierte un array en objeto literal
         if (errors.errors.length > 0) {
             return res.render('products/editProduct', {
                  // aca productId es lo que envio a la vista
+                
                 productId : req.params.id,
                 errors: errors.mapped(),
                 oldData: req.body
@@ -115,6 +116,7 @@ res.redirect('../../product')
 
     delete product.oldImage;
     
+   
     product.news = req.body.news == "true" ? true : false;
     // pregunta si vienen datos de color y talle en el body, en caso de false devuelve un  array vacio
     product.color = product.color ? product.color : [];
@@ -130,9 +132,10 @@ res.redirect('../../product')
     };
 
     product.id = req.params.id;
-    productModel.update(product);         
+    
+    productModel.update(product);   
           
-        res.redirect('../../product', )
+        res.redirect('../../product' )
     },
 
     // Función que elimina del Array visitados el producto seleccionado

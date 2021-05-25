@@ -112,7 +112,7 @@
                                 </div>
                                 <div class="fr_email check-x">
                                     <label for="news" class="fr_lbltexto"> Destacado Home </label> 
-                                      <input type="checkbox" name="news" id="news" value="true" <%= locals.errors ? oldData.oldImage : product.news == "true" ? 'checked' : '' %> >
+                                      <input type="checkbox" name="news" id="news" value="true" <%= locals.oldData ? oldData.news : product.news == true ? 'checked' : '' %> >
                             </div>
                                 <!--</div>-->
                                 <br>

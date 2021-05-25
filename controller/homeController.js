@@ -17,7 +17,7 @@ let homeController = {
          // Con el siguiente código, se filtran los productos por state. Con límite de max 5 por categoría.
  
          products.forEach((element, i) => {
-             if ( element.news === 'true') {
+             if ( element.news === true) {
                  if ( news.length < 8 ) {
                      news.push(element);
                  }

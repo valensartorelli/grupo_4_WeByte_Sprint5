@@ -12,7 +12,7 @@
   ],
   "price": "5800",
   "image": "detalle-producto1.jpg",
-  "news": "true",
+  "news": true,
   "id": "1"
  },
  {
@@ -85,7 +85,7 @@
   ],
   "price": "700",
   "id": "5",
-  "news": "true",
+  "news": true,
   "image": "detalle-producto1.jpg"
  },
  {
@@ -183,13 +183,13 @@
    "S",
    "XL"
   ],
-  "price": "5500",
-  "news": "true",
+  "price": "5600",
+  "news": true,
   "image": "img-1621797575267.jpg",
-  "id": 10
+  "id": "10"
  },
  {
-  "category": "Hombre",
+  "category": "Niño",
   "name": "Remera de Algodon Infantil",
   "description": "Esta Remera es perfecta para completar las sesiones de entrenamiento cuando sales del instituto. ",
   "extended": "Esta Remera es perfecta para completar las sesiones de entrenamiento cuando sales del instituto. Se ha confeccionado en algodón con un cuello de canalé muy cómodo. El logotipo de adidas engomado le confiere el toque deportivo definitivo.",
@@ -221,7 +221,7 @@
    "XL"
   ],
   "price": "4500",
-  "news": "true",
+  "news": true,
   "image": "img-1621876766882.jpg",
   "id": 12
  },
@@ -240,7 +240,7 @@
    "L"
   ],
   "price": "9500",
-  "news": "true",
+  "news": true,
   "image": "img-1621876953103.jpg",
   "id": 13
  },
@@ -259,10 +259,10 @@
    "L",
    "XL"
   ],
-  "price": "2800",
-  "news": "true",
+  "price": "3000",
+  "news": true,
   "image": "img-1621913771325.jpg",
-  "id": 14
+  "id": "14"
  },
  {
   "category": "Mujer",
@@ -280,15 +280,15 @@
    "XL"
   ],
   "price": "3500",
-  "news": "true",
+  "news": true,
   "image": "img-1621913840513.jpg",
   "id": 15
  },
  {
   "category": "Mujer",
   "name": "Pantalón sin costura",
-  "description": "sdjahdkjahdlkajs",
-  "extended": "shdjkahdlskhdlkas",
+  "description": "Sentíte cómoda incluso en los momentos más ajetreados. ",
+  "extended": "Sentíte cómoda incluso en los momentos más ajetreados. Con estas calzas adidas podrás enfrentar lo que te depare el día.",
   "color": [
    "Negro"
   ],
@@ -298,8 +298,8 @@
    "XL"
   ],
   "price": "3500",
-  "news": "true",
+  "news": true,
   "image": "img-1621916575460.jpg",
-  "id": 16
+  "id": "16"
  }
 ]
