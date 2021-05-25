@@ -153,7 +153,7 @@
  },
  {
   "category": "Mujer",
-  "name": "Pantalon de Gimnasia tres tiras",
+  "name": "Pantalón tres tiras",
   "description": "El piloto británico habló en la previa al Gran Premio de Mónaco y fue consultado sobre la nueva generación que se está abriendo paso en la Máxima",
   "extended": "El piloto británico habló en la previa al Gran Premio de Mónaco y fue consultado sobre la nueva generación que se está abriendo paso en la Máxima",
   "color": [
@@ -165,9 +165,9 @@
    "M"
   ],
   "price": "2500",
-  "news": "true",
+  "news": true,
   "image": "img-1621797338591.jpg",
-  "id": 9
+  "id": "9"
  },
  {
   "category": "Mujer",
@@ -283,5 +283,23 @@
   "news": "true",
   "image": "img-1621913840513.jpg",
   "id": 15
+ },
+ {
+  "category": "Mujer",
+  "name": "Pantalón sin costura",
+  "description": "sdjahdkjahdlkajs",
+  "extended": "shdjkahdlskhdlkas",
+  "color": [
+   "Negro"
+  ],
+  "talle": [
+   "M",
+   "L",
+   "XL"
+  ],
+  "price": "3500",
+  "news": "true",
+  "image": "img-1621916575460.jpg",
+  "id": 16
  }
 ]

@@ -8,7 +8,6 @@
           <div class="carousel-item <%= first ? 'active' : null %>">
         <% } %>
         <% first = false %>
-        <% console.log(contador) %>
         <%- include('articuloNews', { product }) %>
         <% contador = contador + 1 %>
         <% if (contador == 4) { %>
