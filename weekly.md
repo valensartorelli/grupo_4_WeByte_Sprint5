@@ -1,4 +1,3 @@
-El equipo se ha reunido una vez en la semana pero ha mantenido diariosintercambios por Slack para resolver asuntos del proyecto. 
-15/4 – Via online, entre todos, implementamos el modulo EJS. Renombramos todas las vistas actuales para que utilicen la extensión .ejs. Actualizamos el sitio con la implementación de los partials.
-17/4 – Nuevamente vía online, modificamos los router y los métodos de los controladores para que utilicen el método render().Modificamos la vista productos.ejs para que levante datos desde data.js
-24/4 – Agregamos el formularios de Alta y Edición. Duplicamos pantalla dedetalle de producto para vista Administrador   (incluyendo los botones Modificar y Eliminar)
+El equipo se ha reunido una vez en la semana pero ha mantenido diarios intercambios por Slack para resolver asuntos del proyecto. 
+22/5 – Via online, entre todos, se implementa la entidad usuario y se organizan carpetas del proyecto segun recomendaciones, se implementa el registro de usuarios, se agregan funcionalidades de multer y encriptacion de contraseñas con bcrypt.js.
+24/5 - Via online, entre todos y separados, se implementa el login de usuarios, se implementan middlewares, session y cookies, rutas de huespedes e invitados y funcionalidad para recordar usuario con el uso de cookies, asi mismo correcto procedimiento de logout.
