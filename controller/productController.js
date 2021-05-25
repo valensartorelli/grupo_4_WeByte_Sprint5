@@ -78,6 +78,7 @@ res.redirect('../../product')
        // Delego al modelo que busque el producto     
        let product = productModel.find(req.params.id);
        const categoryArray = ["Hombre", "Mujer", "Niño"];
+             
        if (product) {
            res.render('products/editProduct', { product, categoryArray });
        } else {

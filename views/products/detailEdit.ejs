@@ -66,6 +66,7 @@
                                     </a>
                                 </div>
                             </div>
+                            <% if (!locals.isLogged) { %>
                             <button type="button" class="pd_gl-cta pd_gl-cta--primary">
                                 <span class="pd_gl-cta__content">
                                     <a href="/product/cart">Agregar al Carrito</a>
@@ -73,6 +74,7 @@
                             </button>
                             <br>
                             <br>
+                            <% } %>
                             <% if (locals.isLogged) { %>
                             <div class="d-flow">
                                 <form action="/product/<%= product.id %>/edit" method="get" class="create-form" id="editar">

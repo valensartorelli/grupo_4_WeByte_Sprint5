@@ -22,13 +22,14 @@
   "extended": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem quos culpa veniam assumenda ipsa porro minus, amet magnam corporis necessitatibus doloribus saepe quaerat libero vitae quae commodi quia beatae voluptatem.",
   "color": [
    "Azul",
-   "Blanco"
+   "Blanco",
+   "Negro"
   ],
   "talle": [
    "L",
    "XL"
   ],
-  "price": "6900",
+  "price": "7200",
   "news": true,
   "image": "detalle-producto2.jpg",
   "id": "2"
