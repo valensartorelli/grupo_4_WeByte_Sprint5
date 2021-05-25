@@ -102,7 +102,7 @@
                                 </div>
                                 <div class="fr_email">
                                     <label class="fr_lbltexto"> Imagen de producto </label>
-                                    <input type="file" name="image" value="<%= locals.errors ? oldData.oldImage : product.image %>" accept=".jpg, .png" class="control" class="control <%= locals.errors && errors.image ? 'is-invalid' : null %>">
+                                    <input type="file" name="image" value="<%= locals.errors ? oldData.oldImage : product.image %>" accept=".jpg, .png" class="control <%= locals.errors && errors.image ? 'is-invalid' : null %>">
         <input type="hidden" name="oldImage" value="<%= locals.errors ? oldData.oldImage :product.image %>">
         <% if (locals.errors && errors.image) { %>
             <div class="is-invalid">

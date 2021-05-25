@@ -18,7 +18,7 @@ let homeController = {
  
          products.forEach((element, i) => {
              if ( element.news === 'true') {
-                 if ( news.length < 4 ) {
+                 if ( news.length < 8 ) {
                      news.push(element);
                  }
              } 

@@ -1,0 +1,20 @@
+<div class="carousel-inner row w-100 mx-auto">
+     
+    <% var first = true; %>
+    <% var contador = 0; %>
+    
+      <% news.forEach(product => { %>
+        <% if (contador == 0) { %>
+          <div class="carousel-item <%= first ? 'active' : null %>">
+        <% } %>
+        <% first = false %>
+        <% console.log(contador) %>
+        <%- include('articuloNews', { product }) %>
+        <% contador = contador + 1 %>
+        <% if (contador == 4) { %>
+          </div>
+          <% contador = 0 %>
+        <% } %>
+      <% }); %>
+    </div>     
+  </div>

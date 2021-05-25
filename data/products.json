@@ -243,5 +243,45 @@
   "news": "true",
   "image": "img-1621876953103.jpg",
   "id": 13
+ },
+ {
+  "category": "Mujer",
+  "name": "Calza ciclista",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis tristique ex, nec lacinia nunc dictum sed.",
+  "extended": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis tristique ex, nec lacinia nunc dictum sed.",
+  "color": [
+   "Blanco",
+   "Negro"
+  ],
+  "talle": [
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "price": "2800",
+  "news": "true",
+  "image": "img-1621913771325.jpg",
+  "id": 14
+ },
+ {
+  "category": "Mujer",
+  "name": "Calza chupin",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis tristique ex, nec lacinia nunc dictum sed.",
+  "extended": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis tristique ex, nec lacinia nunc dictum sed.",
+  "color": [
+   "Azul",
+   "Negro"
+  ],
+  "talle": [
+   "S",
+   "M",
+   "L",
+   "XL"
+  ],
+  "price": "3500",
+  "news": "true",
+  "image": "img-1621913840513.jpg",
+  "id": 15
  }
 ]
