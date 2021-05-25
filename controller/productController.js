@@ -8,7 +8,6 @@ const {validationResult} = require('express-validator');
 let productController = {
     // lista todos los productos
     listar: (req, res) => {
-        console.log('entro listado de productos')
         const products = productModel.all();
         res.render('products/product', { products });
     },
@@ -29,7 +28,6 @@ let productController = {
     },
 // Función que muestra el formulario de Alta de Productos
 create: (req, res) => {
-    console.log('form para alta de producto')
     res.render('products/createProduct');
 },
 // Función que simula el almacenamiento, en este caso en array
@@ -68,7 +66,7 @@ res.redirect('../../product')
     // Función que muestra el detalle del producto, cuando hacemos click en la foto
     show: (req, res) => {
         const product = productModel.find(req.params.id);
-        console.log(product)
+
         if (product) {
             res.render('products/detailEdit', { product });
         } else {
@@ -88,12 +86,9 @@ res.redirect('../../product')
    },
     // Función que realiza cambios en el producto seleccionado
     update: (req, res) => {
-        console.log("Entré al update de product")
        // Validacion de campos - se pregunta si existió al menos un error
         const errors = validationResult(req);
 
-        console.log('imprimo errores')
-        console.log(errors);
      // la función mapped convierte un array en objeto literal
         if (errors.errors.length > 0) {
             return res.render('products/editProduct', {
@@ -142,7 +137,6 @@ res.redirect('../../product')
 
     // Función que elimina del Array visitados el producto seleccionado
     destroy: (req, res) => {
-        console.log('entre destroy')
         productModel.delete(req.params.id);
     // Ahora se mostrará todo porque los productos los varga de un archivo       
     res.redirect('../../product')

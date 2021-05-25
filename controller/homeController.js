@@ -11,8 +11,6 @@ let homeController = {
         res.render('index', { products });
     },
     listar: (req, res) => {
-        console.log('Soy Home Controller - Leo el Json productos ')
-         
          const products = productModel.all();
          let news = [];
  
